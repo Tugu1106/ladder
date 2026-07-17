@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run current exercise (watch)",
+      "detail": "Runs the .js file you're looking at, and re-runs it every time you save.",
+      "type": "shell",
+      "command": "node --watch \"${relativeFile}\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true,
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run current exercise (once)",
+      "detail": "Runs the .js file you're looking at a single time, then exits.",
+      "type": "shell",
+      "command": "node \"${relativeFile}\"",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true,
+        "focus": false
+      },
+      "problemMatcher": []
+    }
+  ]
+}

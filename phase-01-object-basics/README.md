@@ -1,5 +1,25 @@
 # Phase 1 — Object Basics (15 Exercises)
 
+**Status: ✅ complete — all 15 reviewed and running correctly.**
+
+| # | Exercise | Status |
+| --- | --- | --- |
+| 01 | Create an Object | ✅ |
+| 02 | Read One Property | ✅ |
+| 03 | Read Multiple Properties | ✅ |
+| 04 | Modify a Property | ✅ |
+| 05 | Add a Property | ✅ |
+| 06 | Delete a Property | ✅ |
+| 07 | Bracket Notation | ✅ |
+| 08 | Dynamic Property | ✅ |
+| 09 | Add Multiple Properties | ✅ |
+| 10 | Update Multiple Properties | ✅ |
+| 11 | Nested Object | ✅ |
+| 12 | Nested Object Update | ✅ |
+| 13 | Object Inside Object | ✅ · spelled `favouriteFood`, spec says `favoriteFood` |
+| 14 | Mixed Challenge | ✅ |
+| 15 | Mini Boss ⭐ | ✅ · spelled `inteligence`, should be `intelligence` |
+
 ## 📖 Introduction
 
 This phase is all about making object creation and property access feel

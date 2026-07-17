@@ -1,0 +1,29 @@
+{
+  "console.log": {
+    "scope": "javascript",
+    "prefix": "cl",
+    "body": ["console.log($1);"],
+    "description": "console.log() with the cursor inside"
+  },
+
+  "console.log a labelled variable": {
+    "scope": "javascript",
+    "prefix": "clv",
+    "body": ["console.log(\"$1:\", $1);"],
+    "description": "console.log(\"total:\", total) — type the name once, it fills both spots"
+  },
+
+  "console.log deep (nested objects)": {
+    "scope": "javascript",
+    "prefix": "cld",
+    "body": ["console.dir($1, { depth: null });"],
+    "description": "Prints nested objects in full instead of collapsing them to [Object]"
+  },
+
+  "console.log a blank separator": {
+    "scope": "javascript",
+    "prefix": "cls",
+    "body": ["console.log(\"---\");"],
+    "description": "A divider line, handy when one file prints several tasks"
+  }
+}

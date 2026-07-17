@@ -4,5 +4,8 @@
   "explorer.fileNesting.patterns": {
     "*.js": "${capture}.md"
   },
-  "markdown.preview.breaks": true
+  "markdown.preview.breaks": true,
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  }
 }
