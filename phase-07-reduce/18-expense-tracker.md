@@ -31,6 +31,13 @@ Create `{ total:35 }`.
 { total: 35 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** returning a *wrapped* result (`{ total: 35 }`, room to grow)
+- ✅ **Allowed:** `.reduce()` · object result · shorthand `{ total }` · `console.log()`
+- ❌ **Not allowed:** loops — and don't force the wrapping *into* the reduce if
+  summing plainly then wrapping at the end reads cleaner (it does here).
+
 ## Requirements
 
 - Use `reduce()`

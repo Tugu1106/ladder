@@ -26,6 +26,13 @@ Print the name **using bracket notation** instead of dot notation.
 Tugu
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** bracket notation with a string key (`obj["key"]`)
+- ✅ **Allowed:** bracket notation `["..."]` · `console.log()`
+- ❌ **Not allowed:** dot notation — the whole point is to practise the *other*
+  syntax, the one that unlocks dynamic keys in Exercise 8.
+
 ## Requirements
 
 - Use bracket notation — no dots

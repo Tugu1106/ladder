@@ -32,6 +32,13 @@ Use `forEach()` to set everyone's `active` to `true`.
 [{name:"John",active:true},{name:"Jane",active:true}]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** mutating objects through the callback (objects held by reference)
+- ✅ **Allowed:** `.forEach()` · dot assignment (`user.active = true`) · `console.log()`
+- ❌ **Not allowed:** building a new array · reassigning the parameter
+  (`user = {...}`) — that breaks the pointer and the real object never changes.
+
 ## Requirements
 
 - Use `forEach()`

@@ -34,6 +34,13 @@ Create `{ even:[2,4,6], odd:[1,3,5] }`.
 { even: [ 2, 4, 6 ], odd: [ 1, 3, 5 ] }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an *object* accumulator — the thing `map`/`filter` can't do
+- ✅ **Allowed:** `.reduce()` · object initial value · `.push()` · `if` · `console.log()`
+- ❌ **Not allowed:** `.map()` / `.filter()` (they can't collapse into a custom
+  shape) — and `return group` every pass, since `.push()` returns a number.
+
 ## Requirements
 
 - Use `reduce()` with an object as the initial value

@@ -64,6 +64,13 @@ Alex
 [ { name: 'Alex', score: 70 }, { name: 'Sara', score: 30 } ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.sort()` for a leaderboard · composite scores · `Object.entries/values`
+- ✅ **Allowed:** `.sort()` · `.flatMap()` · `.reduce()` · `Object.entries()` · `Object.values()`
+- ❌ **Not allowed:** `for` / `while` loops — `sort()` **mutates** (copy with
+  `[...arr]`) and is alphabetical without a comparator; tally by name so Alex combines.
+
 ## Requirements
 
 - `sort()` is allowed here

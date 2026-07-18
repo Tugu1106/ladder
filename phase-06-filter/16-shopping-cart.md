@@ -30,6 +30,13 @@ Result: `[Keyboard, Monitor]`
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** filtering on one field while the others ride along (`quantity > 0`)
+- ✅ **Allowed:** `.filter()` · dot notation · comparison · `console.log()`
+- ❌ **Not allowed:** `.map()` (don't reshape) · loops — the condition touches
+  one field, but survivors keep all their properties.
+
 ## Requirements
 
 - Use `filter()`

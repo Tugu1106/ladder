@@ -31,6 +31,13 @@ const cart = [{name:"Laptop",price:1000,quantity:2},{name:"Mouse",price:50,quant
 { items: 5, total: 2150 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** two functions over one dataset · `getCartSummary` reuses `getCartTotal`
+- ✅ **Allowed:** `function` · `.reduce()` · a result object · loops if needed
+- ❌ **Avoid:** copy-pasting the total `reduce()` into both — keep the total logic
+  in one place. `items` sums quantities (5), not line count (2).
+
 ## Requirements
 
 - `getCartTotal` returns a number

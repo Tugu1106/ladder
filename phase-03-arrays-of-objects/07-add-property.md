@@ -32,6 +32,13 @@ Each user now carries the new property:
 { name: "Tugu", age: 22, country: "Mongolia" }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** adding a property to *every* object via a loop
+- ✅ **Allowed:** `for` / `for...of` · dot assignment · `console.log()`
+- ❌ **Not allowed:** `.map()` / `.forEach()` (later phases) · writing it three
+  times — one loop enriches the whole list.
+
 ## Requirements
 
 - Use a loop — don't write it out three times

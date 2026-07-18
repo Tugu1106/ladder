@@ -33,6 +33,13 @@ First keep adults, then get only names.
 ["Alex", "Sarah"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** chaining `.filter()` into `.map()` — the first pipeline
+- ✅ **Allowed:** `.filter()` · `.map()` · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` — and order matters: **filter first,
+  then map**, or you lose the fields you needed to filter on.
+
 ## Requirements
 
 - Use `filter()` then `map()`

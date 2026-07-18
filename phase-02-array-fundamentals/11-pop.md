@@ -30,6 +30,13 @@ rabbit
 ["cat", "dog", "bird", "fish", "horse"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.pop()` — removes the last item *and* returns it
+- ✅ **Allowed:** `.pop()` · `console.log()`
+- ❌ **Not allowed:** index math to find the last item · `.slice()` · calling
+  `pop()` more than once — one call both shortens the array and hands you the item.
+
 ## Requirements
 
 - Use `pop()`

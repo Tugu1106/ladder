@@ -31,6 +31,13 @@ Create `"Hello World"`.
 Hello World
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a *string* accumulator (`""` start) · the separator-between problem
+- ✅ **Allowed:** `.reduce()` · `+` · ternary · `console.log()`
+- ❌ **Not allowed:** `.join()` — that's the punchline you're feeling the need for;
+  the neutral start for concatenation is the empty string.
+
 ## Requirements
 
 - Use `reduce()`

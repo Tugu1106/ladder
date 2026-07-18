@@ -29,6 +29,13 @@ Keep available products (`stock > 0`).
 [{ name: 'Laptop', stock: 5 }]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an explicit numeric comparison over bare truthiness (`stock > 0`)
+- ✅ **Allowed:** `.filter()` · dot notation · comparison · `console.log()`
+- ❌ **Not allowed:** bare `p.stock` as the condition — it works by accident (0 is
+  falsy) but breaks on negative stock; say what you mean.
+
 ## Requirements
 
 - Use `filter()`

@@ -30,6 +30,13 @@ After: `["red","yellow","blue"]`
 ["red", "yellow", "blue"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.splice(start, 0, item)` — insert into the middle
+- ✅ **Allowed:** `.splice()` · `console.log()`
+- ❌ **Not allowed:** `.push()` / `.unshift()` (they only hit the ends) ·
+  rebuilding — the `0` delete-count is what turns a removal into an insertion.
+
 ## Requirements
 
 - Use `splice()`

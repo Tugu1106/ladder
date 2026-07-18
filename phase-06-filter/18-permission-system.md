@@ -30,6 +30,13 @@ Get admins only.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a role check — the shape of authorization (`role === "admin"`)
+- ✅ **Allowed:** `.filter()` · `===` · dot notation · `console.log()`
+- ❌ **Not allowed:** `.map()` · loops — permissions aren't a special technique,
+  they're the same exact-match `filter()` with higher stakes.
+
 ## Requirements
 
 - Use `filter()` with `===`

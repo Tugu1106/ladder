@@ -28,6 +28,13 @@ Keep users who are not banned.
 [{ name: 'Alex', banned: false }]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** negating a boolean with `!` (`!user.banned`)
+- ✅ **Allowed:** `.filter()` · `!` · dot notation · `console.log()`
+- ❌ **Not allowed:** `.splice()` / mutation · `.map()` — "remove banned" becomes
+  "keep not-banned"; `!` reads out loud as "not."
+
 ## Requirements
 
 - Use `filter()` with `!`

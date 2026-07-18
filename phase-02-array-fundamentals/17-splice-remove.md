@@ -27,6 +27,13 @@ Remove `green` using splice.
 ["red", "blue", "black"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.splice(start, count)` — remove from the *middle*
+- ✅ **Allowed:** `.splice()` · `console.log()`
+- ❌ **Not allowed:** `.slice()` (that copies, doesn't remove) · rebuilding the
+  array — `splice()` reaches positions `pop()`/`shift()` can't.
+
 ## Requirements
 
 - Use `splice()`

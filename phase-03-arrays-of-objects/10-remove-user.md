@@ -34,6 +34,13 @@ Remove the last user using `pop()`.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.pop()` on a list of objects (removes + returns the last record)
+- ✅ **Allowed:** `.pop()` · `console.log()`
+- ❌ **Not allowed:** `.splice()` · index math — `pop()` works identically whether
+  the slot holds a string or a whole user.
+
 ## Requirements
 
 - Use `pop()`

@@ -29,6 +29,13 @@ Create `["JOHN","JANE"]`.
 ["JOHN", "JANE"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** chaining a method inside the callback (`user.name.toUpperCase()`)
+- ✅ **Allowed:** `.map()` · `.toUpperCase()` · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` — `toUpperCase()` returns a *new*
+  string (strings are immutable), so the result must be returned to matter.
+
 ## Requirements
 
 - Use `map()`

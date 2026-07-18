@@ -28,6 +28,13 @@ John
 Jane
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `forEach()` over objects — the callback param *is* the object
+- ✅ **Allowed:** `.forEach()` · dot notation · `console.log()`
+- ❌ **Not allowed:** index access (`users[i]`) · `for` loops — name the parameter
+  `user` and reach `user.name`, no counter in sight.
+
 ## Requirements
 
 - Use `forEach()`

@@ -87,6 +87,13 @@ With the expanded data:
 { users: 2, posts: 3, comments: 3, averageLikes: 21.666666666666668 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** relational joins by ID (filter-inside-map) · cascading deletes
+- ✅ **Allowed:** `.find()` · `.filter()` · `.map()` · `.reduce()` · `.includes()`
+- ❌ **Not allowed:** `for` / `while` loops — in `deleteUser`, capture the post IDs
+  *before* deleting posts or comments become orphans; filters keep what `!==` matches.
+
 ## Requirements
 
 - No `for` loops

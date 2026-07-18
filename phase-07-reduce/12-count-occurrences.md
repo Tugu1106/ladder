@@ -33,6 +33,13 @@ Create `{ red:2, blue:2, green:1 }`.
 { red: 2, blue: 2, green: 1 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a tally into an object with *dynamic* keys (`counts[color]`)
+- ✅ **Allowed:** `.reduce()` · `{}` start · bracket-notation keys · `|| 0` / `?? 0` · `console.log()`
+- ❌ **Not allowed:** hardcoded keys · dot notation for the key (`counts.color`
+  looks for a literal "color") — default the first sighting so it's not `NaN`.
+
 ## Requirements
 
 - Use `reduce()` with `{}` as the initial value

@@ -33,6 +33,13 @@ Print:
 25
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the same chain at a different index + property (`users[1].age`)
+- ✅ **Allowed:** index access · dot notation · `console.log()`
+- ❌ **Not allowed:** counting on your fingers · a loop — "second user" should
+  map straight to index `1` without thinking.
+
 ## Requirements
 
 - One expression: index, then property

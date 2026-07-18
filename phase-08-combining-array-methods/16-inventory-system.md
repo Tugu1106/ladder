@@ -24,6 +24,13 @@ Calculate inventory value (`price * stock`). Result: `4000`
 4000
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** multiply-and-sum with *no* filter (`price * stock`, everything counts)
+- ✅ **Allowed:** `.reduce()` · arithmetic · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · an uninvited `.filter()` — nothing asks to exclude
+  anything; adding a filter nobody wanted is its own bug.
+
 ## Requirements
 
 - `reduce()`, no filter

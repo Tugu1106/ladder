@@ -29,6 +29,13 @@ Result `20`.
 20
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an accumulator holding "largest so far" (not a total) · the ternary `? :`
+- ✅ **Allowed:** `.reduce()` · comparison · ternary / `if` · `console.log()`
+- ❌ **Not allowed:** `Math.max()` · `.sort()` · loops — do the compare-and-keep
+  yourself; start from `numbers[0]` so negatives don't break it.
+
 ## Requirements
 
 - Use `reduce()`

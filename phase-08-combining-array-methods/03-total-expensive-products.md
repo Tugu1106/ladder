@@ -27,6 +27,13 @@ Result: `400`
 400
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the full three-step pipeline — `filter().map().reduce()`
+- ✅ **Allowed:** `.filter()` · `.map()` · `.reduce()` · comparison · `console.log()`
+- ❌ **Not allowed:** `for` / `while` loops — keep, reshape, combine; you may fold
+  the `map` into the `reduce`, but the three-step version says the steps out loud.
+
 ## Requirements
 
 - Chain all three

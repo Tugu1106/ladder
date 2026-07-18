@@ -38,6 +38,13 @@ Using `forEach()`, add `passed: true/false` where score >= 70 → true, else fal
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a derived field from a condition inside the callback
+- ✅ **Allowed:** `.forEach()` · `if` / comparison · dot assignment · `console.log()`
+- ❌ **Not allowed:** `.map()` · `.filter()` — and prefer `student.passed =
+  student.score >= 70` over an `if/else` that just stores `true`/`false`.
+
 ## Requirements
 
 - Use `forEach()`

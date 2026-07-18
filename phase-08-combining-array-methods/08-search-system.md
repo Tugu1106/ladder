@@ -26,6 +26,13 @@ Return `[{name:"Phone"}]`
 [{ name: 'Phone' }]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** case-insensitive search · reading the output shape to size the pipeline
+- ✅ **Allowed:** `.filter()` · `.includes()` · `.toLowerCase()` · `console.log()`
+- ❌ **Not allowed:** a `.map()` after (the result is whole objects, so `filter()`
+  alone) · loops — the expected shape tells you how many steps you need.
+
 ## Requirements
 
 - `filter()` only — the result is objects

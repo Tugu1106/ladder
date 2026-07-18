@@ -37,6 +37,13 @@ Only the second user loses `age`:
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `delete` through an index (`delete users[1].age`)
+- ✅ **Allowed:** `delete` · index access · dot notation · `console.log()`
+- ❌ **Not allowed:** a loop · touching the other users — delete from one object
+  only, then notice the array is no longer uniform.
+
 ## Requirements
 
 - Use `delete`

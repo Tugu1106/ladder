@@ -30,6 +30,13 @@ Using `forEach()`, calculate total price.
 270
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a real-world subtotal via the accumulator (`total += item.price`)
+- ✅ **Allowed:** `.forEach()` · a `let` total outside · dot notation · `+=` · `console.log()`
+- ❌ **Not allowed:** `.reduce()` (Phase 7) — it's Ex 8 with `price` for `age`;
+  build it well so the `reduce()` version later feels like a relief.
+
 ## Requirements
 
 - Use `forEach()`

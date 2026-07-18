@@ -40,6 +40,13 @@ Extract: `{ domain:"google.com", path:"users", id:5 }`
 { domain: 'google.com', path: 'users', id: 5 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** chained `.split()` on different characters · `Number()` to convert
+- ✅ **Allowed:** `function` · `.split()` · index access · `Number()` · destructuring
+- ❌ **Avoid:** leaving `id` as `"5"` (split always gives strings — cross over with
+  `Number()`). (`new URL()` is the real tool; learn the chip-away way first.)
+
 ## Requirements
 
 - `domain` and `path` are strings

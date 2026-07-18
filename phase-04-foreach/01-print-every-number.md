@@ -34,6 +34,13 @@ Use `forEach()` to print every number.
 40
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.forEach()` + a callback (arrow function)
+- ✅ **Allowed:** `.forEach()` · arrow functions · `console.log()`
+- ❌ **Not allowed:** `for` / `for...of` · index · `.length` · counters — hand
+  the work to a callback and let `forEach()` drive the loop.
+
 ## Requirements
 
 - Use `forEach()` — no `for` loop

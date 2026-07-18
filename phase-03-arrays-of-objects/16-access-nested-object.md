@@ -31,6 +31,13 @@ Ulaanbaatar
 Ulaanbaatar
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** chained dot notation into a nested object (`user.address.city`)
+- ✅ **Allowed:** dot notation · `console.log()`
+- ❌ **Not allowed:** storing `user.address` first · a loop — one expression,
+  one dot per level.
+
 ## Requirements
 
 - Reach it in one expression

@@ -33,6 +33,13 @@ const accounts = [{name:"Alex",balance:5000},{name:"John",balance:2000}];
 Alex
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** sum and max over records — reduce to the object, then narrow (`.name`)
+- ✅ **Allowed:** `function` · `.reduce()` · ternary · comparison
+- ❌ **Avoid:** `.sort()` · accumulating the name alone (you'd lose the balance to
+  compare against) — this sum+max pair should cost you no thought by now.
+
 ## Requirements
 
 - `getTotalMoney` returns a number: 5000 + 2000 = 7000

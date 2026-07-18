@@ -26,6 +26,13 @@ Hello Jane
 Hello Bob
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** template literals inside a `forEach()` callback
+- ✅ **Allowed:** `.forEach()` · template literals `` `${}` `` · `console.log()`
+- ❌ **Not allowed:** `for` loops · `.map()` — the code should read like the
+  sentence "for every name, print this," with no bookkeeping.
+
 ## Requirements
 
 - Use `forEach()`

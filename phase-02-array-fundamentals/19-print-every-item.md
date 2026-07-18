@@ -28,6 +28,13 @@ Jane
 Bob
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** looping over an array by hand (`for` or `for...of`)
+- ✅ **Allowed:** `for` loop · `for...of` · `.length` · index access · `console.log()`
+- ❌ **Not allowed:** `.forEach()` (that's Phase 4) · three separate logs — do
+  the iteration manually so you know what `forEach()` later replaces.
+
 ## Requirements
 
 - Use a loop — no three separate `console.log()` calls

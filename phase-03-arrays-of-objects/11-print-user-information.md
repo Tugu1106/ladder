@@ -24,6 +24,13 @@ John is 20 years old
 Jane is 30 years old
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** composing text from properties (concatenation / template literals)
+- ✅ **Allowed:** `for` / `for...of` · `+` · template literals `` `${}` `` · `console.log()`
+- ❌ **Not allowed:** `.map()` / `.join()` (later) — build each sentence yourself
+  so you feel where the spaces and fixed words go.
+
 ## Requirements
 
 - Use a loop

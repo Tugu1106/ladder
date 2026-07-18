@@ -25,6 +25,13 @@ Calculate total money. Expected: `2150`
 2150
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** multiply-and-sum in one `reduce()` (`price * quantity`)
+- ✅ **Allowed:** `.reduce()` · arithmetic · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` with an outside total — the most
+  commercially important line in the course; one sweep.
+
 ## Requirements
 
 - `reduce()`

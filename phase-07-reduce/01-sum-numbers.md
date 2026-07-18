@@ -40,6 +40,13 @@ Calculate `15`.
 15
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.reduce()` — accumulator + initial value (`(sum, n) => sum + n, 0`)
+- ✅ **Allowed:** `.reduce()` · arrow functions · `return` · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` with an outside total — move the
+  accumulator *inside* the method; whatever you return becomes the next `sum`.
+
 ## Requirements
 
 - Use `reduce()` — no loops, no `forEach()`

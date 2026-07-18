@@ -26,6 +26,13 @@ Add `sword`, `shield`, `potion` using indexes.
 ["sword", "shield", "potion"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** starting empty · filling by index (0, 1, 2…)
+- ✅ **Allowed:** empty array `[]` · index assignment · `console.log()`
+- ❌ **Not allowed:** `.push()` yet — same as Exercise 5, count the slots
+  yourself so the index-grows-the-array rule stays in your hands.
+
 ## Requirements
 
 - Start from the empty array

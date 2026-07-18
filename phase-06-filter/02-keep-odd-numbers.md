@@ -25,6 +25,13 @@ Create `[1,3,5]`.
 [1, 3, 5]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** inverting a condition (`% 2 !== 0`, or `!` on the even test)
+- ✅ **Allowed:** `.filter()` · `%` · `!==` / `!` · `console.log()`
+- ❌ **Not allowed:** `.map()` · `for` / `.forEach()` — flip the verdict; prefer
+  `!== 0` over `=== 1` (which misses negative odds).
+
 ## Requirements
 
 - Use `filter()`

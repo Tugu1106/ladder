@@ -30,6 +30,13 @@ Your values will differ. Note you print the whole address, not just the city:
 { city: 'Darkhan', district: 'Bayanzurkh' }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** writing to a nested key (the read-chain on the left of `=`)
+- ✅ **Allowed:** chained dot notation · assignment `=` · `console.log()`
+- ❌ **Not allowed:** reassigning the whole `address` object · spread — that wipes
+  `district`; reach in and change only the one key.
+
 ## Requirements
 
 - Change `city` inside `address` — don't replace the whole `address` object

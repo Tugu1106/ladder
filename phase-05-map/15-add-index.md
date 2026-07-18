@@ -25,6 +25,13 @@ Create `["0: red","1: blue","2: green"]`.
 ["0: red", "1: blue", "2: green"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the index inside a template literal (`` `${index}: ${color}` ``)
+- ✅ **Allowed:** `.map()` with `(item, index)` · template literals · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · a manual counter · `+ 1` — this one
+  shows raw positions, so the index stays as-is.
+
 ## Requirements
 
 - Use `map()` with the index

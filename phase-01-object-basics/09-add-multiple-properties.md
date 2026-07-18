@@ -40,6 +40,13 @@ Your values will differ; the shape is what matters:
 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** several assignments · mixing value types (string / number / boolean)
+- ✅ **Allowed:** dot / bracket assignment · `console.log()`
+- ❌ **Not allowed:** rewriting the literal · `Object.assign()` / spread — add
+  each property onto the existing object, one line at a time.
+
 ## Requirements
 
 - Add all three to the existing object

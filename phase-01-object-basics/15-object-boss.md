@@ -53,6 +53,13 @@ TuguTheBrave
 15
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** designing a nested object from scratch · reading at two depths
+- ✅ **Allowed:** object literal · nested object · dot notation · `console.log()`
+- ❌ **Not allowed:** arrays (Phase 1 rule — keep `inventory` a number or string) ·
+  loops · `Object.keys()` / `Object.values()` — reach each value by its known path.
+
 ## Requirements
 
 - `stats` must be a nested object

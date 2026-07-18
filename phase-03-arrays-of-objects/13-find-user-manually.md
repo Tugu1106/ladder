@@ -31,6 +31,13 @@ Your call how to report it — printing the matched object is the most useful:
 { name: 'John' }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** searching by hand — loop + `if` + `break`
+- ✅ **Allowed:** `for` / `for...of` · `if` · `===` · `break` · `console.log()`
+- ❌ **Not allowed:** `.find()` · `.filter()` · `.indexOf()` — build the search
+  yourself so `find()` later reads as this loop with a nicer face.
+
 ## Requirements
 
 - Use a loop with an `if` inside

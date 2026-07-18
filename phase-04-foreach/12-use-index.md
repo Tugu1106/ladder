@@ -32,6 +32,13 @@ array.forEach((item, index) => {});
 2 orange
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the callback's second parameter, the index (`(item, index)`)
+- ✅ **Allowed:** `.forEach()` with two params · `console.log()`
+- ❌ **Not allowed:** a manual counter · `.length` — `forEach()` already offers
+  the index; just ask for it in the second parameter slot.
+
 ## Requirements
 
 - Take both parameters

@@ -28,6 +28,13 @@ Use the `key` variable to print the person's age. No dot notation.
 23
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** bracket notation with a *variable* key (`obj[key]`)
+- ✅ **Allowed:** bracket notation with a variable inside · `console.log()`
+- ❌ **Not allowed:** dot notation · writing `age` as a literal · quoting the
+  variable (`obj["key"]`) — the key must come from the variable, not your source.
+
 ## Requirements
 
 - Use the `key` variable inside brackets

@@ -65,6 +65,13 @@ Keyboard
 { electronics: 250, education: 90 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.flatMap()` to flatten items, then ordinary aggregation/grouping
+- ✅ **Allowed:** `.map()` · `.filter()` · `.reduce()` · `.flatMap()` · `.find()` · `.sort()`
+- ❌ **Not allowed:** `for` / `while` loops — write an `orderTotal` helper once;
+  flatten items for Tasks 3–4, and decide "best seller" by revenue vs. units.
+
 ## Requirements
 
 - No `for` loops — `map`/`filter`/`reduce`/`flatMap`/`find`/`sort` are all allowed

@@ -26,6 +26,13 @@ Create `[100,60]` (formula: `price * quantity`).
 [100, 60]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** combining two fields into one number per item (`price * quantity`)
+- ✅ **Allowed:** `.map()` · arithmetic · dot notation · `console.log()`
+- ❌ **Not allowed:** `.reduce()` (no total yet — that's Phase 7) · `for` /
+  `.forEach()` — `map()` gives the per-line numbers; `reduce()` collapses them later.
+
 ## Requirements
 
 - Use `map()`

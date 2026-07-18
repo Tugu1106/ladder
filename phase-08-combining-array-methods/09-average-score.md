@@ -25,6 +25,13 @@ Calculate average score. Expected: `80`
 80
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `reduce()` for the sum, division *outside* the chain
+- ✅ **Allowed:** `.reduce()` · `/` and `.length` afterward · `console.log()`
+- ❌ **Not allowed:** loops · dividing inside the reduce — not every step belongs
+  in the chain; ordinary division finishes the job.
+
 ## Requirements
 
 - `reduce()` for the sum

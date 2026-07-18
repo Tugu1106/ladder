@@ -28,6 +28,13 @@ Result `80`.
 80
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** post-processing a reduce result — not everything belongs inside
+- ✅ **Allowed:** `.reduce()` for the sum · `/` and `.length` *outside* · `console.log()`
+- ❌ **Not allowed:** dividing inside the reduce — sum with `reduce()`, then divide
+  by `.length` afterward; use the right tool for each half.
+
 ## Requirements
 
 - `reduce()` for the sum

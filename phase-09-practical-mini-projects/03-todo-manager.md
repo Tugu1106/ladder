@@ -34,6 +34,13 @@ const todos = [{title:"Study JS",completed:true},{title:"Workout",completed:fals
 1
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** one boolean field answering two opposite questions (`completed` / `!completed`)
+- ✅ **Allowed:** `function` · `.filter()` · `.map()` · `.length` · loops if needed
+- ❌ **Avoid:** `=== true` / `=== false` — pass the boolean and negate with `!`.
+  Watch the return types: one gives titles, the other a count.
+
 ## Requirements
 
 - `getCompletedTodos` returns titles — strings, not objects

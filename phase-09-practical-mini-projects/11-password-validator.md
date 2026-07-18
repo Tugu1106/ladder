@@ -46,6 +46,13 @@ false
 true
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** combining boolean checks with `&&` · testing every character
+- ✅ **Allowed:** `function` · `.split("")` · `.some()` · `.length` · `&&`
+- ❌ **Avoid:** one giant unreadable condition — name each check, combine at the
+  end. (Regex `/[0-9]/.test()` is the production tool; meet the long way first.)
+
 ## Requirements
 
 - Returns a real boolean — `true`/`false`, not a string

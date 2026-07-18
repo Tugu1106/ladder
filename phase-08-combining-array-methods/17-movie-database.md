@@ -26,6 +26,13 @@ Find movies rating >= 8. Return: `["A","C"]`
 ["A", "C"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `filter().map()` sized from the output shape (strings → map follows)
+- ✅ **Allowed:** `.filter()` · `.map()` · comparison · dot notation · `console.log()`
+- ❌ **Not allowed:** loops — `["A","C"]` means filter-then-map; `>= 8` keeps the
+  exactly-8 movie.
+
 ## Requirements
 
 - `filter()` then `map()`

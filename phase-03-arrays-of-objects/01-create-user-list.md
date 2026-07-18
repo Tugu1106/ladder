@@ -37,6 +37,13 @@ Print the whole array.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an array of objects — `[]` holding `{}` items
+- ✅ **Allowed:** array literal · object literals · `console.log()`
+- ❌ **Not allowed:** `.push()` · loops — write the whole structure as one
+  literal so you *see* the shape real data arrives in.
+
 ## Requirements
 
 - The array holds three objects

@@ -45,6 +45,14 @@ Rules: active adult = age >= 18 AND active true; revenue = sum every order price
 { totalUsers: 3, activeAdults: [ 'Alex', 'Sarah' ], totalRevenue: 650 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** three differently-shaped stats from nested API data
+- ✅ **Allowed:** `.length` · `.filter()` · `.map()` · `.flatMap()` · `.reduce()` ·
+  `&&` · a result object · `console.log()`
+- ❌ **Not allowed:** loops — read each requirement on its own; two stats filter,
+  `totalRevenue` does not, so it's 650 (John's order counts), not 600.
+
 ## Requirements
 
 - `totalUsers` counts everyone: `3`

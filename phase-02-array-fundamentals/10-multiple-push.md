@@ -25,6 +25,13 @@ Add `fish`, `horse`, `rabbit` using **one** push call.
 ["cat", "dog", "bird", "fish", "horse", "rabbit"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.push()` with several arguments at once
+- ✅ **Allowed:** one `.push()` call · `console.log()`
+- ❌ **Not allowed:** three separate `push()` calls · a loop — pass all three
+  items into the single call, comma-separated.
+
 ## Requirements
 
 - Exactly one `push()` call — not three

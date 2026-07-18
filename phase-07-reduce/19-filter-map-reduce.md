@@ -37,6 +37,13 @@ Result `1100`.
 1100
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the full pipeline — `filter().map().reduce()` in order
+- ✅ **Allowed:** `.filter()` · `.map()` · `.reduce()` · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · a single reduce with an `if` (it works, but the chain
+  says what it does) — filter first: mapping to prices destroys `available`.
+
 ## Requirements
 
 - Chain all three in one statement

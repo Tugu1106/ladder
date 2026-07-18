@@ -58,6 +58,14 @@ Each product contributes `price * stock`:
 1500
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** three passes over one dataset — print, filter, accumulate
+- ✅ **Allowed:** `for` / `for...of` · `if` · template literals · a `let` total ·
+  `*` / `+=` · `console.log()`
+- ❌ **Not allowed:** `.map()` · `.filter()` · `.reduce()` — do all three the long
+  way so Phase 8's three-line version means something.
+
 ## Requirements
 
 - Loops only — no `map()`, `filter()`, or `reduce()`

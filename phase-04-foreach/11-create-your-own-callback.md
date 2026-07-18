@@ -40,6 +40,13 @@ Color: blue
 Color: green
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a callback is a value — pass a named function by name
+- ✅ **Allowed:** `.forEach()` · a named `function` · template literals · `console.log()`
+- ❌ **Not allowed:** passing `printColor()` *with* parentheses — that calls it
+  immediately and hands `forEach()` the return value, not the function.
+
 ## Requirements
 
 - Define the callback as a separate named function

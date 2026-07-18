@@ -28,6 +28,13 @@ Create `["John","Jane"]`.
 ["John", "Jane"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** plucking one field from every object (`users.map(u => u.name)`)
+- ✅ **Allowed:** `.map()` · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · pushing into an outside array — read
+  the whole call as one thought, "the users' names."
+
 ## Requirements
 
 - Use `map()`

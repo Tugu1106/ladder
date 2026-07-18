@@ -35,6 +35,13 @@ calculateOrderTotal(orders[0])   // 25
 25
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a function taking an *object* · reducing over its nested array
+- ✅ **Allowed:** `function` with args · `.reduce()` · `.map()` · loops if needed
+- ❌ **Avoid:** reading `orders` from outer scope or by index — take the order in,
+  so it works for any order and composes (`orders.map(calculateOrderTotal)`).
+
 ## Requirements
 
 - Takes an order **object** as a parameter, not an index

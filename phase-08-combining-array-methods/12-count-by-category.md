@@ -28,6 +28,13 @@ Output: `{ food:2, drink:1 }`
 { food: 2, drink: 1 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** tallying with dynamic keys (numbers, not arrays — `|| 0`)
+- ✅ **Allowed:** `.reduce()` · `{}` start · bracket keys · `console.log()`
+- ❌ **Not allowed:** loops · hardcoded keys — same machinery as grouping, but the
+  accumulator counts; parenthesise `(tally[...] || 0)` before `+ 1`.
+
 ## Requirements
 
 - `reduce()` with `{}` initial value

@@ -26,6 +26,13 @@ Keep only active users.
 [{name:"Alex",active:true},{name:"Sarah",active:true}]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** filtering on a boolean property *directly* (`user.active`)
+- ✅ **Allowed:** `.filter()` · dot notation · `!` (for the opposite) · `console.log()`
+- ❌ **Not allowed:** `=== true` (redundant) · `.map()` · loops — the property
+  *is* the verdict, so pass it straight through.
+
 ## Requirements
 
 - Use `filter()`

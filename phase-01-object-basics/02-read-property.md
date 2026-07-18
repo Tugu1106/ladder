@@ -27,6 +27,13 @@ Print **only** the person's name.
 Tugu
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** dot notation read (`obj.key`)
+- ✅ **Allowed:** dot notation · `console.log()`
+- ❌ **Not allowed:** bracket notation `[]` — that's Exercise 7; here you're
+  grooving the dot until it's automatic.
+
 ## Requirements
 
 - Use dot notation

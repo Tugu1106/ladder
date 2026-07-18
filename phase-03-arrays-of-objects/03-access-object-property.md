@@ -30,6 +30,13 @@ Print only the first user's name.
 Tugu
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** chaining index + dot in one expression (`users[0].name`)
+- ✅ **Allowed:** index access · dot notation · `console.log()`
+- ❌ **Not allowed:** storing `users[0]` in a variable first · a loop — the whole
+  point is reading the chain left to right in a single expression.
+
 ## Requirements
 
 - Do it in one expression — don't store the object in a variable first

@@ -26,6 +26,13 @@ Keep only adults.
 [{name:"Alex",age:20},{name:"Sarah",age:30}]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.filter()` over objects — whole objects survive (`user.age >= 18`)
+- ✅ **Allowed:** `.filter()` · dot notation · comparison · `console.log()`
+- ❌ **Not allowed:** `.map()` (that would reshape) · `for` / `.forEach()` — reach
+  into `.age` to decide; the entire object is kept for you. `>= 18`, not `>`.
+
 ## Requirements
 
 - Use `filter()`

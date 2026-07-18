@@ -36,6 +36,13 @@ Create:
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** reshaping into a *new structure* (adapting `name`/`age` → `title`/`description`)
+- ✅ **Allowed:** `.map()` · fresh object literals · template literals · `console.log()`
+- ❌ **Not allowed:** spread `...user` (it would drag `name`/`age` along) · `for` /
+  `.forEach()` — build a clean new shape with exactly the two keys.
+
 ## Requirements
 
 - Use `map()`

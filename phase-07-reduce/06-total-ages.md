@@ -25,6 +25,13 @@ Calculate `75`.
 75
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** reducing over objects — reach in for `.age` (`sum + user.age`)
+- ✅ **Allowed:** `.reduce()` · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` — `NaN` means you added the whole
+  object; pull the number out first.
+
 ## Requirements
 
 - Use `reduce()`

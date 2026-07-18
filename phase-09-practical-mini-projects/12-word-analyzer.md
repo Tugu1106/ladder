@@ -34,6 +34,13 @@ const text = "hello javascript world";
 javascript
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.split(" ")` — turning text into an array your tools understand
+- ✅ **Allowed:** `function` · `.split()` · `.length` · `.reduce()` · loops if needed
+- ❌ **Avoid:** `split("")` (no space splits into *characters*, not words) — once
+  split, it's a plain Phase 2/7 problem.
+
 ## Requirements
 
 - Use `split(" ")` to break the text apart

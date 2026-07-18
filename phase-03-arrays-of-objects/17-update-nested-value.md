@@ -30,6 +30,13 @@ Change `city` to `Darkhan`.
 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** writing through a nested chain (`user.address.city = ...`)
+- ✅ **Allowed:** dot notation · assignment `=` · `console.log()`
+- ❌ **Not allowed:** replacing the whole `address` object · spread — that wipes
+  `country`; reach in for the one property.
+
 ## Requirements
 
 - Change only `city` — `country` must survive

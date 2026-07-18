@@ -29,6 +29,13 @@ Result `Christopher`.
 Christopher
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the accumulator holding the *best candidate* (a string), not a total
+- ✅ **Allowed:** `.reduce()` · `.length` · comparison · ternary · `console.log()`
+- ❌ **Not allowed:** `.sort()` · loops — each pass asks "is this one longer?" and
+  returns the winner; decide up front whether you hold the string or the object.
+
 ## Requirements
 
 - Use `reduce()`

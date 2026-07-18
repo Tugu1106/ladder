@@ -30,6 +30,13 @@ Create `[5,6,3]`.
 [5, 6, 3]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` changing the *type* (strings in → numbers out)
+- ✅ **Allowed:** `.map()` · `.length` · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` — `map()` only promises the array's
+  length is preserved; what fills each slot is up to your callback.
+
 ## Requirements
 
 - Use `map()`

@@ -24,6 +24,13 @@ Build it yourself. Create an array called `fruits` containing `apple`, `banana`,
 ["apple", "banana", "orange"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** array literal syntax `[]`
+- ✅ **Allowed:** `[]` · `console.log()`
+- ❌ **Not allowed:** `new Array()` · `.push()` (that's Exercise 9) — the literal
+  with all values inside is how arrays are really written.
+
 ## Requirements
 
 - Use array literal syntax (`[]`)

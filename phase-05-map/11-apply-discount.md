@@ -26,6 +26,13 @@ Create a new array with 10% discount.
 [90, 180, 270]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` with percentage arithmetic (`price * 0.9`)
+- ✅ **Allowed:** `.map()` · arithmetic · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · mutating `prices` — build a new
+  array of sale prices, leaving the originals intact.
+
 ## Requirements
 
 - Use `map()`

@@ -30,6 +30,13 @@ Use `forEach()` to calculate the total.
 30
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an accumulator *outside* the callback (a closure)
+- ✅ **Allowed:** `.forEach()` · a `let` total declared outside · `+=` · `console.log()`
+- ❌ **Not allowed:** `.reduce()` (Phase 7) · declaring `total` inside the callback
+  — that resets it every pass; the closure is what lets the callback reach outward.
+
 ## Requirements
 
 - Use `forEach()`

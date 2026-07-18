@@ -26,6 +26,13 @@ Print the first fruit.
 apple
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** index access · zero-based counting (`arr[0]`)
+- ✅ **Allowed:** index access `[]` · `console.log()`
+- ❌ **Not allowed:** `.at()` · `.find()` · `.shift()` — reach the position
+  directly by its number so zero-based indexing sinks in.
+
 ## Requirements
 
 - Use index access

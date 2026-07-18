@@ -39,6 +39,13 @@ Print:
 8
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** doing arithmetic inside the callback (result only printed, not kept)
+- ✅ **Allowed:** `.forEach()` · arithmetic · `console.log()`
+- ❌ **Not allowed:** `.map()` (Phase 5) · mutating `numbers` — `forEach()` throws
+  away what the callback returns, which is exactly the limit `map()` fixes.
+
 ## Requirements
 
 - Use `forEach()`

@@ -40,6 +40,13 @@ Your values will differ:
 Buuz
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a second nested object alongside the first
+- ✅ **Allowed:** nested object literal · chained dot notation · `console.log()`
+- ❌ **Not allowed:** replacing `address` · loops — add `favoriteFood` without
+  disturbing what's already there.
+
 ## Requirements
 
 - `favoriteFood` must be an object with all three meals

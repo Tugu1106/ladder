@@ -25,6 +25,13 @@ Result `70`.
 70
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the canonical sum-a-property shape as *one* pattern to fill in
+- ✅ **Allowed:** `.reduce()` · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` — `reduce((sum, item) => sum +
+  item.field, 0)` should read as one shape, not three decisions.
+
 ## Requirements
 
 - Use `reduce()`

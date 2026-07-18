@@ -54,6 +54,13 @@ With the two-delivery data above:
 ["John"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** status filtering done safely · nested item totals via `flatMap`
+- ✅ **Allowed:** `.filter()` · `.flatMap()` · `.reduce()` · `.map()`
+- ❌ **Not allowed:** `for` / `while` loops · defining pending as `!== "delivered"`
+  — filter *for* `"pending"`, so a future `"cancelled"` status doesn't leak in.
+
 ## Requirements
 
 - No `for` loops

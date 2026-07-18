@@ -34,6 +34,13 @@ Change Tugu's age from `22` to `23`. Print users.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** writing to a property through an index (`users[0].age = 23`)
+- ✅ **Allowed:** index access · dot notation · assignment `=` · `console.log()`
+- ❌ **Not allowed:** rebuilding the array · replacing the whole object · a loop
+  — reach two levels in and change the one value.
+
 ## Requirements
 
 - Reach the property through its index

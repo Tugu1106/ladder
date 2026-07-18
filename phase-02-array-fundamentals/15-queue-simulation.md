@@ -27,6 +27,13 @@ A person joins: `Alice`. A person leaves. Use `push` and `shift`.
 ["Jane", "Bob", "Alice"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** combining `.push()` + `.shift()` into the queue (FIFO) pattern
+- ✅ **Allowed:** `.push()` · `.shift()` · `console.log()`
+- ❌ **Not allowed:** `.pop()` (that makes a stack, not a queue) · naming who
+  leaves by index — `shift()` must pick the front person for you.
+
 ## Requirements
 
 - Use `push()` for joining and `shift()` for leaving

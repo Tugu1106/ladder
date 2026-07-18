@@ -27,6 +27,13 @@ Create: `{ computer:["Laptop","Mouse"], mobile:["Phone"] }`
 { computer: [ 'Laptop', 'Mouse' ], mobile: [ 'Phone' ] }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** groupBy with dynamic keys (an object accumulator of arrays)
+- ✅ **Allowed:** `.reduce()` · `{}` start · bracket keys · `.push()` · `|| []` · `console.log()`
+- ❌ **Not allowed:** loops · `Object.groupBy()` · hardcoded categories — create
+  each array on first sighting, push names, and `return group` every pass.
+
 ## Requirements
 
 - `reduce()` with `{}` initial value

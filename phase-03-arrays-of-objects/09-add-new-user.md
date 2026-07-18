@@ -35,6 +35,13 @@ Add `{ name: "Sarah", age: 28 }` to the array using `push()`.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.push()` with an object argument (adding a whole record)
+- ✅ **Allowed:** `.push()` · object literal · `console.log()`
+- ❌ **Not allowed:** index assignment · rebuilding the array — `push()` doesn't
+  care that the item is an object rather than a string.
+
 ## Requirements
 
 - Use `push()`

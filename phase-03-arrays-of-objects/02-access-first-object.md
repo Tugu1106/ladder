@@ -29,6 +29,13 @@ Print the first user's whole object.
 { name: "Tugu", age: 22 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** indexing an array of objects (`users[0]` returns a whole object)
+- ✅ **Allowed:** index access · `console.log()`
+- ❌ **Not allowed:** `.find()` · a loop · dot notation — just the position; the
+  point is that indexing doesn't care what the slot holds.
+
 ## Requirements
 
 - Use index access

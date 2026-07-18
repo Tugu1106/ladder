@@ -32,6 +32,13 @@ Calculate the total age. Use a loop.
 90
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the accumulator, reaching into each object (`total += users[i].age`)
+- ✅ **Allowed:** `for` / `for...of` · a `let` total · `+=` · `console.log()`
+- ❌ **Not allowed:** `.reduce()` (Phase 7) · `Math` helpers — same accumulator
+  as Phase 2, just one extra hop to `.age`.
+
 ## Requirements
 
 - Use a loop — no `reduce()`, that's Phase 7

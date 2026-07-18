@@ -29,6 +29,13 @@ const numbers = [1, 2, 3, 4];
 [2, 4, 6, 8]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` + `return` — build a new array from each item
+- ✅ **Allowed:** `.map()` · arrow functions · `return` · `console.log()`
+- ❌ **Not allowed:** `for` loops · `.forEach()` · mutating `numbers` — only
+  `map()` catches the return values and collects them into a new array.
+
 ## Requirements
 
 - Use `map()` — not a `for` loop, not `forEach()`

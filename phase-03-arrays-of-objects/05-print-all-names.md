@@ -33,6 +33,13 @@ Alex
 John
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** looping and reaching a property each pass (`users[i].name`)
+- ✅ **Allowed:** `for` / `for...of` · dot notation · `console.log()`
+- ❌ **Not allowed:** `.forEach()` / `.map()` (Phases 4–5) · hardcoding three
+  logs — the counter or loop variable replaces the fixed index.
+
 ## Requirements
 
 - Use a loop

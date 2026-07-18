@@ -45,6 +45,13 @@ Alex
 600
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.flatMap()` to collapse three-level nesting, then answer normally
+- ✅ **Allowed:** `.flatMap()` · `.reduce()` · `.filter()` · `.map()`
+- ❌ **Not allowed:** `for` / `while` loops — flatten servers→members once; then
+  decide the *scope* of each question (across all servers vs. per server).
+
 ## Requirements
 
 - No `for` loops

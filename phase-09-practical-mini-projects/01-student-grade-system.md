@@ -48,6 +48,13 @@ getPassedStudents()             // ["Alex","Sarah"]
 ["Alex", "Sarah"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** functions that compose — `getPassedStudents()` *calls* `calculateAverage()`
+- ✅ **Allowed:** `function` · `.filter()` · `.map()` · `.reduce()` · loops if needed
+- ❌ **Avoid:** re-writing the average `reduce()` inside `getPassedStudents` — you
+  already have that function; call it. Reduce over `student.grades`, not `students`.
+
 ## Requirements
 
 - `calculateAverage` takes a student **object** and returns a number

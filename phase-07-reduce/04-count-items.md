@@ -29,6 +29,13 @@ Result `3`.
 3
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an accumulator that *ignores* the item (`total + 1`) — a wrong-tool rep
+- ✅ **Allowed:** `.reduce()` · `.length` · `console.log()`
+- ❌ **Not allowed:** loops — when the callback never uses the current item, that's
+  the signal you actually wanted `.length`.
+
 ## Requirements
 
 - Use `reduce()` for the practice

@@ -53,6 +53,13 @@ const products = [
 ["Laptop", "Keyboard"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** progressive narrowing — one condition, then `&&`, then filter→map
+- ✅ **Allowed:** `.filter()` · `.map()` · `&&` · `===` · comparison · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` — start broad, add conditions, shape
+  the output last; `filter()` never mutates, so all three tasks read the same data.
+
 ## Requirements
 
 - `filter()` and `map()` only — no loops

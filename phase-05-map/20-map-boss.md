@@ -57,6 +57,13 @@ const products = [
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** three `map()` shapes on one dataset — pluck, arithmetic, reshape
+- ✅ **Allowed:** `.map()` · dot notation · arithmetic · object literals · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` · `.filter()` / `.reduce()` — three
+  separate `map()` calls; the point is "one thing per item, you decide what."
+
 ## Requirements
 
 - `map()` only — no loops, no `forEach()`, no `filter()`/`reduce()`

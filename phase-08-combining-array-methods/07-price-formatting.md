@@ -28,6 +28,13 @@ Create `["$100","$200","$300"]`.
 ["$100", "$200", "$300"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` numbers → display strings (data crosses to presentation)
+- ✅ **Allowed:** `.map()` · template literals · `console.log()`
+- ❌ **Not allowed:** loops · formatting *before* any calculation — once it's
+  `"$100"` it's useless for maths, so format last, always.
+
 ## Requirements
 
 - Use `map()`

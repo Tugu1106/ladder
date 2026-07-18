@@ -30,6 +30,13 @@ Create `{ admin:["Alex","Sarah"], user:["John"] }`.
 { admin: [ 'Alex', 'Sarah' ], user: [ 'John' ] }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the groupBy pattern — dynamic key + an array you push into
+- ✅ **Allowed:** `.reduce()` · `{}` start · bracket keys · `.push()` · `if` / `||` · `console.log()`
+- ❌ **Not allowed:** hardcoded roles · `Object.groupBy()` (learn the manual
+  version) — create each array on first sighting before pushing, or `.push()` hits `undefined`.
+
 ## Requirements
 
 - Use `reduce()` with `{}` as the initial value

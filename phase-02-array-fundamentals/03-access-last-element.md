@@ -26,6 +26,13 @@ Print the last fruit. Use `array.length` — don't hardcode the number.
 orange
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.length` to compute the last index (`arr[arr.length - 1]`)
+- ✅ **Allowed:** `.length` · index access · arithmetic
+- ❌ **Not allowed:** hardcoding `[2]` · `.at(-1)` · `.pop()` — computing the
+  index is what makes it work whether the array has 3 items or 3000.
+
 ## Requirements
 
 - Use `.length` to work out the index

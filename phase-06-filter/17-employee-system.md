@@ -29,6 +29,13 @@ Get only IT employees.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** filtering on exact string equality (`department === "IT"`)
+- ✅ **Allowed:** `.filter()` · `===` · dot notation · `console.log()`
+- ❌ **Not allowed:** `.includes()` (that's partial matching, from Ex 12) · `.map()`
+  — a department either *is* "IT" or it isn't.
+
 ## Requirements
 
 - Use `filter()` with `===`

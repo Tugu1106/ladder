@@ -23,6 +23,13 @@ Tugu
 22
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** dot notation twice · one `console.log()` per line
+- ✅ **Allowed:** dot notation · multiple `console.log()`
+- ❌ **Not allowed:** loops · `Object.values()` — printing two known keys by hand
+  is the point; iterating over keys comes many phases later.
+
 ## Requirements
 
 - Use dot notation for both

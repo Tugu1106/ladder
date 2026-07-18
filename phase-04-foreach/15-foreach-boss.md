@@ -53,6 +53,14 @@ Sarah earns 5000
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** three uses of one method — side effect, accumulator, mutation
+- ✅ **Allowed:** `.forEach()` · template literals · a `let` total · dot assignment ·
+  `console.log()`
+- ❌ **Not allowed:** `for` loops · `.map()` / `.filter()` / `.reduce()` — every
+  task goes through `forEach()`, showing the three reasons you'd reach for it.
+
 ## Requirements
 
 - `forEach()` for all three — no `for` loops, no `map()`/`filter()`/`reduce()`

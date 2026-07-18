@@ -22,6 +22,13 @@ Create `[20,25]`.
 [20, 25]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** plucking a *different* field — one word changes
+- ✅ **Allowed:** `.map()` · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` — switching which field you pluck is a
+  one-word edit, not a new technique.
+
 ## Requirements
 
 - Use `map()`

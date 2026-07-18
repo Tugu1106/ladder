@@ -38,6 +38,13 @@ const temperatures = [20, 25, 30, 15];
 15
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** min and max as one `reduce()` with the comparison flipped
+- ✅ **Allowed:** `function` · `.reduce()` · ternary · comparison
+- ❌ **Avoid:** `Math.max()` / `Math.min()` · seeding from `0` (negatives break
+  it — seed from `temperatures[0]`). Highest vs. lowest differ by one character.
+
 ## Requirements
 
 - All three return numbers

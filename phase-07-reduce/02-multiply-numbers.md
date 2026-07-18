@@ -30,6 +30,13 @@ Result `24`.
 24
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** choosing a *neutral* initial value (`1` for multiplication)
+- ✅ **Allowed:** `.reduce()` · arithmetic · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` · starting at `0` — zero times anything
+  is zero; the initial value must not change the operation's result.
+
 ## Requirements
 
 - Use `reduce()`

@@ -28,6 +28,13 @@ Add `grape` to the end using index assignment, e.g. `array[3] = ...`
 ["apple", "mango", "orange", "grape"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** growing an array by writing past the end (`arr[arr.length] = value`)
+- ✅ **Allowed:** `.length` · index assignment · `console.log()`
+- ❌ **Not allowed:** `.push()` (that's Exercise 9) — the point is to *feel* the
+  counting yourself so you appreciate why `push()` exists.
+
 ## Requirements
 
 - Use index assignment — not `push()` (that's Exercise 9)

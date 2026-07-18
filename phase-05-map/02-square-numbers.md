@@ -26,6 +26,13 @@ Create `[4,9,16,25]`.
 [4, 9, 16, 25]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the short arrow form — implicit return (no braces, no `return`)
+- ✅ **Allowed:** `.map()` · arrow functions (both forms) · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` — and beware `n => { n * n }`: a braced
+  body with no `return` gives back `undefined`.
+
 ## Requirements
 
 - Use `map()`

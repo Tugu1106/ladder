@@ -25,6 +25,13 @@ Change `10 → 100` and `30 → 300`.
 [100, 20, 300, 40]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** multiple index assignments · translating "1st / 3rd" into `0` / `2`
+- ✅ **Allowed:** index assignment · `console.log()`
+- ❌ **Not allowed:** a new array literal · `.splice()` · loops — target each
+  position directly so the index translation becomes automatic.
+
 ## Requirements
 
 - Two index assignments

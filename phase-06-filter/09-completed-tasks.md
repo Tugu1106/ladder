@@ -28,6 +28,13 @@ Keep completed tasks.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a boolean property under a different name (`task.completed`)
+- ✅ **Allowed:** `.filter()` · dot notation · `!` (for the remaining ones) · `console.log()`
+- ❌ **Not allowed:** `=== true` · `.map()` · loops — recognise the *shape* (a
+  boolean field, pass it through) regardless of what it's called.
+
 ## Requirements
 
 - Use `filter()`

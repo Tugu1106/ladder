@@ -41,6 +41,13 @@ Your values will differ; note that `name` and `job` are untouched:
 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** updating several keys in place
+- ✅ **Allowed:** dot notation · assignment `=` · `console.log()`
+- ❌ **Not allowed:** a new object literal · spread — rebuilding reorders keys,
+  but updating a value keeps each key exactly where it was.
+
 ## Requirements
 
 - Update the three existing properties — don't add new ones

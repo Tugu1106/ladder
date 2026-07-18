@@ -46,6 +46,13 @@ const products = [{name:"Laptop",price:1000,stock:5},{name:"Mouse",price:50,stoc
 5000
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** two different pipelines over one array (filter→map vs. reduce)
+- ✅ **Allowed:** `function` · `.filter()` · `.map()` · `.reduce()` · loops if needed
+- ❌ **Avoid:** filtering zero-stock out before the value sum — `50 * 0` is `0`,
+  so the arithmetic already handles it; no filter needed there.
+
 ## Requirements
 
 - `getAvailableProducts` returns names of products with `stock > 0`

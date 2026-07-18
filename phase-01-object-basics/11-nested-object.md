@@ -37,6 +37,13 @@ Your values will differ:
 Ulaanbaatar
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an object as a property value · chained dots to read (`a.b.c`)
+- ✅ **Allowed:** nested object literal · chained dot notation · `console.log()`
+- ❌ **Not allowed:** loops — you're reaching one known path, not iterating over
+  the object.
+
 ## Requirements
 
 - `address` must be an object, not a string

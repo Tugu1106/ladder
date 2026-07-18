@@ -27,6 +27,13 @@ Result: `["elephant","computer"]`
 ["elephant", "computer"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** filtering on a *computed* property (`word.length > 5`)
+- ✅ **Allowed:** `.filter()` · `.length` · comparison · `console.log()`
+- ❌ **Not allowed:** `.map()` (that returned the lengths in Phase 5) — here the
+  length decides, but the *word* survives unchanged.
+
 ## Requirements
 
 - Use `filter()`

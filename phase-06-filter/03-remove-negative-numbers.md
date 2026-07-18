@@ -26,6 +26,13 @@ Create `[10,20,30]`.
 [10, 20, 30]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** thinking in "keep", not "remove" (`n > 0`)
+- ✅ **Allowed:** `.filter()` · comparison operators · `console.log()`
+- ❌ **Not allowed:** `.splice()` / mutation · `for` / `.forEach()` — `filter()`
+  can only keep, so flip "remove negatives" into "keep positives."
+
 ## Requirements
 
 - Use `filter()`

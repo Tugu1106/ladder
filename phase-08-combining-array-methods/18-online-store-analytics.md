@@ -36,6 +36,13 @@ Find: sold products, total revenue, sold product names.
 { revenue: 1200, products: [ 'Laptop', 'Chair' ] }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** two stats from one filtered set, built into a report object
+- ✅ **Allowed:** `.filter()` · `.reduce()` · `.map()` · a result object · `console.log()`
+- ❌ **Not allowed:** loops · using `category` (a red herring) — filter the sold
+  items once, then compute revenue and names from it.
+
 ## Requirements
 
 - Only sold products count

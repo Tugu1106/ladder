@@ -27,6 +27,13 @@ Add `bird` using `push()`.
 ["cat", "dog", "bird"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.push()` — add to the end without counting
+- ✅ **Allowed:** `.push()` · `console.log()`
+- ❌ **Not allowed:** index assignment · reassigning `animals` to the `push()`
+  result (it returns the new length, not the array) — call it as a statement.
+
 ## Requirements
 
 - Use `push()` — no index assignment

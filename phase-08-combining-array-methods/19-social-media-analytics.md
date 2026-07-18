@@ -33,6 +33,13 @@ Find: total likes, most liked post.
 { totalLikes: 350, topPost: 'Sarah' }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a sum *and* a maximum from one dataset (same machine, two callbacks)
+- ✅ **Allowed:** `.reduce()` (twice) · comparison · a result object · `console.log()`
+- ❌ **Not allowed:** `.sort()` (O(n log n) for a one-pass question) · loops — the
+  max reduce must hold the whole *post* so `.author` survives to the end.
+
 ## Requirements
 
 - `totalLikes` sums all three: 350

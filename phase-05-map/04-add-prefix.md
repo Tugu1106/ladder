@@ -26,6 +26,13 @@ Create `["Mr. John","Mr. Jane","Mr. Bob"]`.
 ["Mr. John", "Mr. Jane", "Mr. Bob"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` over strings — a transformation needn't compute anything
+- ✅ **Allowed:** `.map()` · template literals / `+` · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · mutating `names` — gluing a word on
+  the front is a perfectly valid transform; `map()` just needs a return value.
+
 ## Requirements
 
 - Use `map()`

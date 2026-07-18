@@ -33,6 +33,13 @@ Expected: `[Phone]`
 [{ name: 'Phone' }]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** partial, case-insensitive matching (`includes()` + `toLowerCase()`)
+- ✅ **Allowed:** `.filter()` · `.includes()` · `.toLowerCase()` · `console.log()`
+- ❌ **Not allowed:** `===` (that's exact, not partial) · hardcoding `"phone"` —
+  use the `keyword` variable and lowercase *both* sides so case can't break it.
+
 ## Requirements
 
 - Use `filter()` with `includes()`

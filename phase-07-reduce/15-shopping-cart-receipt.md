@@ -30,6 +30,13 @@ Create `{ items:3, total:120 }`.
 { items: 3, total: 120 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** accumulating two values at once in one object (`{ items, total }`)
+- ✅ **Allowed:** `.reduce()` · object accumulator · arithmetic · `console.log()`
+- ❌ **Not allowed:** two separate reduces (that's two passes for related numbers)
+  — the initial value's shape *is* the answer's shape.
+
 ## Requirements
 
 - Use `reduce()` — one pass, not two

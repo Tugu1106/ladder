@@ -21,6 +21,13 @@ John is 20
 Jane is 25
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** two properties + fixed text in one line (Ex 5 meets Ex 6)
+- ✅ **Allowed:** `.forEach()` · dot notation · template literals · `console.log()`
+- ❌ **Not allowed:** `for` loops · `.map().join()` — combine both properties
+  right inside the callback.
+
 ## Requirements
 
 - Use `forEach()`

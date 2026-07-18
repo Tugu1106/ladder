@@ -41,6 +41,13 @@ searchBook("Book Z")   // ← your call. undefined? null?
 { title: 'Book A', available: true }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a function that takes a *parameter* (`searchBook(title)`)
+- ✅ **Allowed:** `function` with args · `.filter()` · `.find()` · loops if needed
+- ❌ **Avoid:** hardcoding the title inside — the argument is what makes it
+  reusable. Decide deliberately what a miss returns (`undefined`? `null`?).
+
 ## Requirements
 
 - `searchBook` takes the title as a parameter — don't hardcode it

@@ -60,6 +60,13 @@ With the three-movie data above:
 [{ title: 'Interstellar', ... }]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.includes()` on *arrays* (membership) · `flatMap` + tally across nesting
+- ✅ **Allowed:** `.filter()` · `.flatMap()` · `.reduce()` · array `.includes()`
+- ❌ **Not allowed:** `for` / `while` loops · `===` against an array — a movie in
+  two genres counts in both; `> 8` is strict here (an 8 is out), unlike earlier `>= 8`.
+
 ## Requirements
 
 - No `for` loops

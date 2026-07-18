@@ -32,6 +32,13 @@ Create `[2,4,6]`.
 [2, 4, 6]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.filter()` + a boolean callback · the modulo operator `%`
+- ✅ **Allowed:** `.filter()` · `%` · `===` · `console.log()`
+- ❌ **Not allowed:** `.map()` (that transforms, not selects) · `for` / `.forEach()`
+  — return a *verdict* (`n % 2 === 0`), not a value; `filter()` keeps the item as-is.
+
 ## Requirements
 
 - Use `filter()`

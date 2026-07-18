@@ -38,6 +38,13 @@ correct
 wrong
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a two-argument function · comparing across types (`4` vs `"4"`)
+- ✅ **Allowed:** `function` with two args · `===` · `Number()` · ternary
+- ❌ **Avoid:** `==` (its coercion rules are genuinely strange) — use `===` and
+  convert the input explicitly with `Number()`, so the conversion is visible.
+
 ## Requirements
 
 - Takes a question **object** and the user's answer

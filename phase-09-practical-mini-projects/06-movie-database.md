@@ -38,6 +38,13 @@ const movies = [{title:"Interstellar",rating:9},{title:"Avatar",rating:7},{title
 8.3
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** rounding for display with `.toFixed(1)` (returns a *string*)
+- ✅ **Allowed:** `function` · `.filter()` · `.reduce()` · `.toFixed()` · loops if needed
+- ❌ **Avoid:** formatting mid-calculation — do the maths first, then `toFixed`;
+  parenthesise `(total / movies.length).toFixed(1)`. Divide by `.length`, not `3`.
+
 ## Requirements
 
 - `getTopMovies` uses `>= 8` — Avatar's 7 is out

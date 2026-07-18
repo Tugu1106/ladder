@@ -34,6 +34,13 @@ const posts = [{author:"Alex",likes:100},{author:"John",likes:50}];
 150
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a max and a sum as functions · returning the richest thing (the object)
+- ✅ **Allowed:** `function` · `.reduce()` · ternary · comparison
+- ❌ **Avoid:** `.sort()` · returning just the author — the name says "post", so
+  return the whole post and let the caller narrow it.
+
 ## Requirements
 
 - `getMostLikedPost` returns the whole post object

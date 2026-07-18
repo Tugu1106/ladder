@@ -28,6 +28,13 @@ How many active users? Result: `2`
 2
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `filter().length` — choosing the *simplest* pipeline
+- ✅ **Allowed:** `.filter()` · `.length` · `console.log()`
+- ❌ **Not allowed:** `.reduce()` · `.map()` to 1s · loops — the fanciest tool
+  that works isn't the right one; the clearest is.
+
 ## Requirements
 
 - Use `filter()` then `.length`

@@ -36,6 +36,13 @@ Print the object.
 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** creating a key by assigning to it
+- ✅ **Allowed:** dot / bracket assignment · `console.log()`
+- ❌ **Not allowed:** rewriting the literal · `Object.assign()` / spread — the
+  lesson is that the *same* `=` from Exercise 4 both updates and creates.
+
 ## Requirements
 
 - Add `country` after the object already exists — don't rewrite the literal

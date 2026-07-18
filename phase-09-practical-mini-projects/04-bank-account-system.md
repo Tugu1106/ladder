@@ -32,6 +32,13 @@ const transactions = [{type:"deposit",amount:1000},{type:"withdraw",amount:300},
 1200
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** conditional accumulation — the *operation* depends on the data (`type`)
+- ✅ **Allowed:** `function` · `.reduce()` · `if` / ternary · loops if needed
+- ❌ **Avoid:** adding every `amount` blindly (gives 1800) — `amount` is always
+  positive; the `type` decides the sign. Start from `0`.
+
 ## Requirements
 
 - Deposits add, withdrawals subtract

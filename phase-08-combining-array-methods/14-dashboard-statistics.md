@@ -27,6 +27,13 @@ Create: `{ completedOrders:2, completedRevenue:400 }`
 { completedOrders: 2, completedRevenue: 400 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** two related stats from one filtered set (filter once, reuse)
+- ✅ **Allowed:** `.filter()` · `.length` · `.reduce()` · a result object · `console.log()`
+- ❌ **Not allowed:** loops — `.length` for the count, `reduce()` for the money,
+  both from the same filtered array.
+
 ## Requirements
 
 - Only completed orders count — the pending 200 is excluded

@@ -27,6 +27,13 @@ Change the person's age from `22` to `23`, then print the whole object.
 { name: 'Tugu', age: 23 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** reassigning a property (`obj.key = newValue`)
+- ✅ **Allowed:** dot notation · assignment `=` · `console.log()`
+- ❌ **Not allowed:** a fresh object literal for `person` · `Object.assign()` /
+  spread — you're mutating the existing object, and those would hide the mutation.
+
 ## Requirements
 
 - Change the existing `age` property — don't create a new object

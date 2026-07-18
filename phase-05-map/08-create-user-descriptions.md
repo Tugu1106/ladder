@@ -28,6 +28,13 @@ Transform into `["John is 20 years old"]`.
 ["John is 20 years old"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` *returning* sentences (a value you can reuse, not a print)
+- ✅ **Allowed:** `.map()` · template literals · `return` · `console.log()`
+- ❌ **Not allowed:** `console.log()` *inside* the callback (that's `forEach()`'s
+  dead-end job) — returning is the whole difference from Phase 4.
+
 ## Requirements
 
 - Use `map()`

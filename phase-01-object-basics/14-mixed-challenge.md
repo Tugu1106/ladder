@@ -30,6 +30,13 @@ Print the final object.
 Depends on your choices. The final object must show all three effects: one value
 different, one key that wasn't there before, one key gone.
 
+## Toolbox
+
+- 🎯 **Focus:** update + add + delete on one object — mutation in place
+- ✅ **Allowed:** dot notation · assignment `=` · `delete` · `console.log()`
+- ❌ **Not allowed:** a new object literal for `person` · `Object.assign()` /
+  spread — the constraint *is* reshaping the object you already have.
+
 ## Requirements
 
 - Do not write a new object literal for `person`

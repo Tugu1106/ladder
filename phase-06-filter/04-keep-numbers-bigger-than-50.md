@@ -26,6 +26,13 @@ Result `[60,90,100]`.
 [60, 90, 100]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a threshold condition · strict vs. inclusive (`>` vs. `>=`)
+- ✅ **Allowed:** `.filter()` · comparison operators · `console.log()`
+- ❌ **Not allowed:** `.map()` · `for` / `.forEach()` — pick `>` because "bigger
+  than 50" excludes 50 itself, not because the test happens to pass.
+
 ## Requirements
 
 - Use `filter()`

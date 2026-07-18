@@ -27,6 +27,13 @@ Count people age >= 18.
 2
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** conditional counting — a counter that only sometimes steps up
+- ✅ **Allowed:** `for` / `for...of` · `if` · `>=` · `count++` · `console.log()`
+- ❌ **Not allowed:** `.filter().length` (later) — do the count-when-matching by
+  hand; add `1` per match, never the age.
+
 ## Requirements
 
 - Use a loop with an `if`

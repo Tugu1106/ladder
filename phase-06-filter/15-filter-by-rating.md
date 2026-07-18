@@ -29,6 +29,13 @@ Keep movies with rating >= 8.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** an inclusive threshold with a boundary case *in the data* (`>= 8`)
+- ✅ **Allowed:** `.filter()` · dot notation · comparison · `console.log()`
+- ❌ **Not allowed:** `.map()` · loops — this time `>` visibly loses movie A, so
+  the operator choice actually shows in the output.
+
 ## Requirements
 
 - Use `filter()`

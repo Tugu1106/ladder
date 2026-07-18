@@ -28,6 +28,13 @@ Result: `["Laptop","Keyboard"]`
 ["Laptop", "Keyboard"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `filter().map()` drilled to muscle memory (in-stock → names)
+- ✅ **Allowed:** `.filter()` · `.map()` · comparison · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `while` loops · bare `p.stock` as the condition —
+  write `p.stock > 0` explicitly.
+
 ## Requirements
 
 - `filter()` then `map()`

@@ -30,6 +30,13 @@ Print:
 100000
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a three-level chain (`companies[0].employees.count`)
+- ✅ **Allowed:** index access · dot notation · `console.log()`
+- ❌ **Not allowed:** intermediate variables · a loop — the same two rules
+  (brackets for position, dots for names) applied three times in one expression.
+
 ## Requirements
 
 - One expression

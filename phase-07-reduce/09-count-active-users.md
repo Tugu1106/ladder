@@ -30,6 +30,13 @@ Result `2`.
 2
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** conditional accumulation — *always* return the accumulator
+- ✅ **Allowed:** `.reduce()` · ternary / `if` · `console.log()`
+- ❌ **Not allowed:** an `if` with no `else`-return (that hands back `undefined`) —
+  the "no" branch must still return `total`. `filter().length` is the cleaner tool.
+
 ## Requirements
 
 - Use `reduce()`

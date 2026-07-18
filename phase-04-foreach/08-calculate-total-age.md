@@ -27,6 +27,13 @@ Calculate total age.
 60
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** accumulating a *property* across objects (`total += person.age`)
+- ✅ **Allowed:** `.forEach()` · a `let` total outside · dot notation · `+=` · `console.log()`
+- ❌ **Not allowed:** `.reduce()` (Phase 7) — same closure as Ex 3, one extra dot
+  to reach `.age`; this is your third rep of the pattern on purpose.
+
 ## Requirements
 
 - Use `forEach()`

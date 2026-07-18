@@ -30,6 +30,13 @@ Calculate `2150` (formula `price * quantity`).
 2150
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** computing inside the accumulator — `map().reduce()` in one step
+- ✅ **Allowed:** `.reduce()` · arithmetic (`*` then `+`) · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` — do the `price * quantity` inside the
+  callback, before adding; one sweep instead of map-then-sum.
+
 ## Requirements
 
 - Use `reduce()`

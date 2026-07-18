@@ -27,6 +27,13 @@ Calculate `5500` (formula `price * stock`).
 5500
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the multiply-then-sum shape again (`price * stock`)
+- ✅ **Allowed:** `.reduce()` · arithmetic · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · `.forEach()` — recognise it's Exercise 8 with a
+  different field; one pattern behind cart total, inventory, payroll, revenue.
+
 ## Requirements
 
 - Use `reduce()`

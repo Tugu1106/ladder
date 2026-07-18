@@ -43,6 +43,13 @@ Returning matching product objects:
 []
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a search function — partial, case-insensitive matching
+- ✅ **Allowed:** `function` with a param · `.filter()` · `.includes()` · `.toLowerCase()`
+- ❌ **Avoid:** `===` (that's exact, not partial) — lowercase both sides.
+  `filter()` returns `[]` on no match naturally; don't special-case it.
+
 ## Requirements
 
 - Partial matching — `"lap"` finds `"Laptop"`

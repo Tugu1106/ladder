@@ -29,6 +29,13 @@ Add `category: "computer"` to every product.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** creating a new property on every object (enriching data)
+- ✅ **Allowed:** `.forEach()` · dot assignment · `console.log()`
+- ❌ **Not allowed:** `.map()` (that returns a new array) · a new array literal —
+  the reference rule makes the added property stick to the originals.
+
 ## Requirements
 
 - Use `forEach()`

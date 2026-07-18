@@ -45,6 +45,13 @@ Alex
 200
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** deriving state — `reduce()` seeded from `user.balance`, not `0`
+- ✅ **Allowed:** `.reduce()` · `.flatMap()` · `.filter()` · ternary
+- ❌ **Not allowed:** `for` / `while` loops · storing a mutable balance — seeding
+  at `0` gives the change (300), not the balance (1300); rank on *calculated* balances.
+
 ## Requirements
 
 - No `for` loops

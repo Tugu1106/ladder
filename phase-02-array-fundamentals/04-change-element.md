@@ -26,6 +26,13 @@ Change `banana` to `mango`. Print the array.
 ["apple", "mango", "orange"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** assigning to an index (`arr[1] = value`)
+- ✅ **Allowed:** index access · assignment `=` · `console.log()`
+- ❌ **Not allowed:** a new array literal · `.splice()` — you're overwriting one
+  slot in place, not rebuilding the list.
+
 ## Requirements
 
 - Assign to the index — don't rebuild the array

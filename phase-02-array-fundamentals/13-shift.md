@@ -26,6 +26,13 @@ Remove the first item, so `["a","b","c"]` becomes `["b","c"]`.
 ["b", "c"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.shift()` — remove (and return) the first item
+- ✅ **Allowed:** `.shift()` · `console.log()`
+- ❌ **Not allowed:** `.splice(0, 1)` · index tricks — `shift()` is the dedicated
+  tool for the front, the mirror of `pop()`.
+
 ## Requirements
 
 - Use `shift()`

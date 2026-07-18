@@ -31,6 +31,13 @@ Find the highest score.
 Bob 95
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** tracking a running maximum (keep the best *object*, not just the number)
+- ✅ **Allowed:** `for` / `for...of` · `if` · `>` · a `best` variable · `console.log()`
+- ❌ **Not allowed:** `.sort()` · `Math.max()` · `.reduce()` — do the comparison
+  yourself so you learn to carry the whole object along with the value.
+
 ## Requirements
 
 - Use a loop

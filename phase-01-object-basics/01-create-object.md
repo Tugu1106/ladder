@@ -28,6 +28,13 @@ Then print the entire object.
 { name: 'Tugu', age: 22 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** object literal syntax `{}`
+- ✅ **Allowed:** `{}` · `console.log()`
+- ❌ **Not allowed:** `new Object()` · `Object.assign()` — the literal is what
+  you'll read and write 99% of the time; the constructor form only hides it.
+
 ## Requirements
 
 - Use object literal syntax (`{}`)

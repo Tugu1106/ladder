@@ -31,6 +31,13 @@ Result: `[4,8,12]`
 [4, 8, 12]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `filter().map()` where *order* changes the answer
+- ✅ **Allowed:** `.filter()` · `.map()` · `%` · arithmetic · `console.log()`
+- ❌ **Not allowed:** `for` / `while` loops · map-before-filter — doubling first
+  makes everything even, giving a plausible-but-wrong six items.
+
 ## Requirements
 
 - Filter first, then map

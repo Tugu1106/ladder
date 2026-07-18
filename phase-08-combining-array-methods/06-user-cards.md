@@ -30,6 +30,13 @@ Create: `[{title:"Alex",text:"Age:20"},{title:"John",text:"Age:30"}]`
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` reshaping every object (no filter — read the spec)
+- ✅ **Allowed:** `.map()` · fresh object literals · template literals · `console.log()`
+- ❌ **Not allowed:** `.filter()` (everyone gets a card) · spread (the new shape
+  drops `name`/`age`) · loops — match the keys `title`/`text` exactly.
+
 ## Requirements
 
 - `map()` only — no filter, everyone gets a card

@@ -46,6 +46,13 @@ Mouse
 { name: 'Mouse', stock: 20, sales: 200 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** query vs. command · mutate-in-place vs. return-new (`map` + ternary)
+- ✅ **Allowed:** `.filter()` · `.reduce()` · `.find()` · `.map()` · spread `...`
+- ❌ **Not allowed:** `for` / `while` loops — `restockProduct` changes the world;
+  pick mutate or immutable, say which in a comment, and be consistent.
+
 ## Requirements
 
 - No `for` loops

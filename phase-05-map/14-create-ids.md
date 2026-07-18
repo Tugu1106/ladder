@@ -40,6 +40,13 @@ Use the index parameter.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()`'s index parameter · strings → objects (`index + 1`)
+- ✅ **Allowed:** `.map()` with `(item, index)` · shorthand properties · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · a manual counter — the `+ 1` on the
+  index is the whole off-by-one lesson. Wrap the returned object in `()`.
+
 ## Requirements
 
 - Use `map()` with both parameters

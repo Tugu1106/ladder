@@ -25,6 +25,13 @@ Create `["Keyboard costs $50","Mouse costs $20"]`.
 ["Keyboard costs $50", "Mouse costs $20"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** objects → display strings with a literal `$` beside `${}`
+- ✅ **Allowed:** `.map()` · template literals · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · printing inside the callback —
+  `$${p.price}` is correct: literal `$`, then the interpolation.
+
 ## Requirements
 
 - Use `map()`

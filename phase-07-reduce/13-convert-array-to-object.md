@@ -33,6 +33,13 @@ Create `{ 1:{name:"Alex"}, 2:{name:"John"} }`.
 { '1': { name: 'Alex' }, '2': { name: 'John' } }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** building a lookup table keyed by `id` (normalizing)
+- ✅ **Allowed:** `.reduce()` · `{}` start · bracket-notation keys · `console.log()`
+- ❌ **Not allowed:** `.find()` at read time (that scans; a lookup is instant) —
+  key each entry by `id`; note keys print as strings (`'1'`).
+
 ## Requirements
 
 - Use `reduce()` with `{}` as the initial value

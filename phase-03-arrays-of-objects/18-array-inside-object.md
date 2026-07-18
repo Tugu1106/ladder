@@ -30,6 +30,13 @@ React
 React
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** mixing dot + bracket for an array inside an object (`student.skills[2]`)
+- ✅ **Allowed:** dot notation · index access · `console.log()`
+- ❌ **Not allowed:** storing `student.skills` first · a loop — read the chain
+  left to right: dot for the name, brackets for the position.
+
 ## Requirements
 
 - One expression

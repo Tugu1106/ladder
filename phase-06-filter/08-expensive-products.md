@@ -31,6 +31,13 @@ Expected: `[Keyboard, Monitor]`
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a threshold on an object property (`product.price > 50`)
+- ✅ **Allowed:** `.filter()` · dot notation · comparison · `console.log()`
+- ❌ **Not allowed:** `.map()` · loops — compare against the plain number `50`;
+  full objects come back, not just names.
+
 ## Requirements
 
 - Use `filter()`

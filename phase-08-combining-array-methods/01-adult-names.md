@@ -31,6 +31,13 @@ Result: `["Alex","Sarah"]`
 ["Alex", "Sarah"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the two-step pipeline — `filter().map()` (select, then reshape)
+- ✅ **Allowed:** `.filter()` · `.map()` · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `while` loops — say the steps in English ("keep
+  adults, take names") and write one method per step.
+
 ## Requirements
 
 - Chain `filter()` into `map()`

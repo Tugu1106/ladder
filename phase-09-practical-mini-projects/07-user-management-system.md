@@ -39,6 +39,13 @@ Returning whole objects from the first two:
 2
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** three small, independent functions naming their concepts
+- ✅ **Allowed:** `function` · `.filter()` · `.length` · `===` · loops if needed
+- ❌ **Avoid:** filtering inside `countUsers` (it's just `.length`) and being
+  inconsistent — if `getAdmins` returns objects, `getActiveUsers` should too.
+
 ## Requirements
 
 - `countUsers` counts **everyone** — no filter

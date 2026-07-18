@@ -25,6 +25,13 @@ Formula: `Celsius * 1.8 + 32`
 [32, 68, 86]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.map()` for unit conversion (a formula per item)
+- ✅ **Allowed:** `.map()` · arithmetic · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · mutating the original — keep the
+  source in Celsius so it can still be toggled back.
+
 ## Requirements
 
 - Use `map()`

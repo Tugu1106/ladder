@@ -43,6 +43,13 @@ Alex
 [ { name: 'Alex', engagement: 0.18 }, { name: 'John', engagement: 0.05 } ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a derived *ratio* metric (engagement = interactions / followers)
+- ✅ **Allowed:** `.map()` · `.filter()` · `.reduce()` · `.flatMap()`
+- ❌ **Not allowed:** `for` / `while` loops — Task 3's denominator is post count
+  (`flatMap` the posts), not user count; a ratio ranks differently than a total.
+
 ## Requirements
 
 - No `for` loops

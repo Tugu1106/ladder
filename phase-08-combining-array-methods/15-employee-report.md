@@ -26,6 +26,13 @@ Find IT employees' total salary. Result: `9000`
 9000
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `filter().reduce()` with a string condition (department payroll)
+- ✅ **Allowed:** `.filter()` · `.reduce()` · `===` · dot notation · `console.log()`
+- ❌ **Not allowed:** loops · a needless `.map()` — reduce straight from the
+  filtered objects.
+
 ## Requirements
 
 - Filter on department, then sum salaries

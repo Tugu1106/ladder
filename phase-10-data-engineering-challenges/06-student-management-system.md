@@ -55,6 +55,13 @@ Alex
 75
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** averages of averages — one `calculateAverage` reused four times
+- ✅ **Allowed:** `.reduce()` · `.filter()` · `.map()` · `.flatMap()`
+- ❌ **Not allowed:** `for` / `while` loops · inlining the average four times —
+  and decide the class-average definition (average-of-averages vs. pooled), say which.
+
 ## Requirements
 
 - No `for` loops

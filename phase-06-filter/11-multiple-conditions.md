@@ -32,6 +32,13 @@ Expected: `[Alex]`
 [{ name: 'Alex', age: 25, active: true }]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** combining conditions with `&&` (both must hold)
+- ✅ **Allowed:** `.filter()` · `&&` · comparison · dot notation · `console.log()`
+- ❌ **Not allowed:** two chained `filter()` calls (one pass with `&&` is clearer) ·
+  `||` (that's OR, keeps too many) · `.map()`.
+
 ## Requirements
 
 - Use `filter()` with `&&`

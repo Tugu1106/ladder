@@ -26,6 +26,13 @@ Create `["Keyboard","Mouse"]`.
 ["Keyboard", "Mouse"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** plucking a field that *isn't* called `name` (it's `item`)
+- ✅ **Allowed:** `.map()` · dot notation · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` · reaching for `.name` on autopilot —
+  read the data; the wrong field returns `undefined` quietly.
+
 ## Requirements
 
 - Use `map()`

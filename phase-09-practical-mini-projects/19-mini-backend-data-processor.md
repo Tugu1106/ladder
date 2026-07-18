@@ -32,6 +32,13 @@ const orders = [{user:"Alex",status:"completed",amount:100},{user:"John",status:
 { completedOrders: 1, revenue: 100 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** filter-to-what-counts, compute, return a named report object
+- ✅ **Allowed:** `function` · `.filter()` · `.length` · `.reduce()` · `===`
+- ❌ **Avoid:** letting pending orders slip in (revenue would 3× to 300) — filter
+  once to `completed`, use it for both numbers.
+
 ## Requirements
 
 - Only `completed` orders count

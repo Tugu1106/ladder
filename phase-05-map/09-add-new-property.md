@@ -44,6 +44,13 @@ Do not modify the original.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** returning *new* objects with spread (`{ ...user, role }`) — immutability
+- ✅ **Allowed:** `.map()` · spread `...` · `console.log()`
+- ❌ **Not allowed:** mutating (`user.role = ...`) · `.forEach()` — copy each
+  object; that's why React sees the change. Wrap the object in `()` after the arrow.
+
 ## Requirements
 
 - Use `map()`

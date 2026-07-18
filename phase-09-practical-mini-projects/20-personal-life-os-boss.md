@@ -53,6 +53,13 @@ const habits = [
 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** floored percentages · grouping that keeps zero-count keys
+- ✅ **Allowed:** `function` · `.filter()` · `.reduce()` · `Math.floor()` · `+ "%"`
+- ❌ **Avoid:** `Math.round()` (66.67 → 67, spec wants 66) · filtering to completed
+  *before* grouping (drops `learning: 0`) — create every key first, then count completed.
+
 ## Requirements
 
 - `completedHabits` — count of completed: `2`

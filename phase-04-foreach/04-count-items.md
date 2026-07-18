@@ -28,6 +28,13 @@ Count how many fruits exist.
 3
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** counting with `forEach()` — *and* seeing why `.length` is better
+- ✅ **Allowed:** `.forEach()` · a counter · `.length` · `console.log()`
+- ❌ **Not allowed:** `.filter().length` (later) — this one's a deliberate
+  wrong-tool rep; the callback ignoring its item is the tell.
+
 ## Requirements
 
 - Use `forEach()` for the practice

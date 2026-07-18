@@ -33,6 +33,13 @@ const expenses = [{category:"food",amount:20},{category:"transport",amount:10},{
 { food: 50, transport: 10 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** grouping that *sums amounts* per key (not counting occurrences)
+- ✅ **Allowed:** `function` · `.reduce()` · `{}` accumulator · `|| 0` · loops if needed
+- ❌ **Avoid:** adding `1` (that tallies, giving `{food: 2}`) — add `e.amount`;
+  the grouped values must sum back to the total. Parenthesise the `|| 0`.
+
 ## Requirements
 
 - `getTotalExpense` sums everything: 20 + 10 + 30 = 60

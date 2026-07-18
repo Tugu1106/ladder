@@ -30,6 +30,13 @@ Create a new array where salary increases by 500.
 [{name:"Alex",salary:3500},{name:"John",salary:4500}]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** spread + an *overridden* field (`{ ...e, salary: e.salary + 500 }`)
+- ✅ **Allowed:** `.map()` · spread `...` · arithmetic · `console.log()`
+- ❌ **Not allowed:** mutating · putting `salary:` *before* the spread (order
+  matters — the later key wins, so the override must come after `...e`).
+
 ## Requirements
 
 - Use `map()`

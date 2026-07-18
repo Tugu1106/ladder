@@ -29,6 +29,13 @@ Delete the `country` property, then print the object.
 }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** the `delete` operator
+- ✅ **Allowed:** `delete` · `console.log()`
+- ❌ **Not allowed:** setting the key to `null` / `undefined` — that leaves the
+  key in place; `delete` removes it entirely, which is the distinction here.
+
 ## Requirements
 
 - Use the `delete` operator

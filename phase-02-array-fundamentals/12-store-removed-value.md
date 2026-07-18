@@ -25,6 +25,13 @@ Remove the last game, store it in `const removedGame`, and print it.
 Valorant
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** capturing a method's return value in a variable
+- ✅ **Allowed:** `.pop()` · assignment to a `const` · `console.log()`
+- ❌ **Not allowed:** printing the `pop()` call directly (Exercise 11 did that) —
+  the skill here is *keeping* the removed value for later use.
+
 ## Requirements
 
 - Store the result in a `const` named `removedGame`

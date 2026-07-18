@@ -30,6 +30,13 @@ Using a loop, calculate the total.
 100
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** looping with an accumulator (a running total across iterations)
+- ✅ **Allowed:** `for` / `for...of` · a `let` total · `+` / `+=` · `console.log()`
+- ❌ **Not allowed:** `.reduce()` (that's Phase 7) — do the accumulator by hand
+  now so `reduce()` feels familiar rather than magic later.
+
 ## Requirements
 
 - Use a loop — no `reduce()`, that's Phase 7

@@ -30,6 +30,13 @@ Output: `{ 20:["Alex","John"], 30:["Sarah"] }`
 { '20': [ 'Alex', 'John' ], '30': [ 'Sarah' ] }
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** grouping by a *numeric* key (object keys are always strings)
+- ✅ **Allowed:** `.reduce()` · `{}` start · bracket keys · `.push()` · `|| []` · `console.log()`
+- ❌ **Not allowed:** loops · hardcoded ages — the code is identical to string
+  grouping; the key `20` just prints as `'20'`.
+
 ## Requirements
 
 - `reduce()` with `{}` initial value

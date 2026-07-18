@@ -25,6 +25,13 @@ Print how many items exist.
 4
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.length` as a value in its own right
+- ✅ **Allowed:** `.length` · `console.log()`
+- ❌ **Not allowed:** `.length()` with parentheses (it's a property, not a
+  method) · counting by hand — let the array report its own size.
+
 ## Requirements
 
 - Use `.length`

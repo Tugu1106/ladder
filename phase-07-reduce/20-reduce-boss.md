@@ -37,6 +37,13 @@ Expected `1200`.
 1200
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** nested `reduce()` — reducing over arrays inside objects
+- ✅ **Allowed:** `.reduce()` (inner + outer) · `.flatMap()` · arithmetic · `console.log()`
+- ❌ **Not allowed:** loops — inner reduce totals one order, outer sums the
+  orders; name `orderTotal` rather than inlining it so the nesting stays readable.
+
 ## Requirements
 
 - Use `reduce()` — nested is fine and expected

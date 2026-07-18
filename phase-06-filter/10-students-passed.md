@@ -31,6 +31,13 @@ Keep students with score >= 60.
 ]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** a pass/fail threshold that *removes* (vs. Phase 4's annotate)
+- ✅ **Allowed:** `.filter()` · dot notation · comparison · `console.log()`
+- ❌ **Not allowed:** `.map()` / `.forEach()` (those tag everyone) — `filter()`
+  drops the failures entirely rather than marking them.
+
 ## Requirements
 
 - Use `filter()`

@@ -31,6 +31,13 @@ Add `"first"` to the beginning.
 ["first", "b", "c"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.unshift()` — add to the front
+- ✅ **Allowed:** `.unshift()` · `console.log()`
+- ❌ **Not allowed:** `.splice(0, 0, ...)` · rebuilding the array — `unshift()`
+  completes the push/pop/shift/unshift family, the add-to-front corner.
+
 ## Requirements
 
 - Use `unshift()`

@@ -24,6 +24,13 @@ Create `["Interstellar (2014)","Inception (2010)","Avatar (2009)"]`.
 ["Interstellar (2014)", "Inception (2010)", "Avatar (2009)"]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** formatting two fields into one display string with exact punctuation
+- ✅ **Allowed:** `.map()` · template literals · `console.log()`
+- ❌ **Not allowed:** `for` / `.forEach()` — the literal `(` and `)` sit outside
+  the `${}`; `map()` also guarantees output order matches input order.
+
 ## Requirements
 
 - Use `map()`

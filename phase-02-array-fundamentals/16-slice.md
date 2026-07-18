@@ -31,6 +31,13 @@ original: [1,2,3,4,5]
 new: [2,3,4]
 ```
 
+## Toolbox
+
+- 🎯 **Focus:** `.slice()` — copy a section *without* mutating the original
+- ✅ **Allowed:** `.slice()` · a new variable · `console.log()`
+- ❌ **Not allowed:** `.splice()` (that one mutates — opposite behaviour) · index
+  copying by hand — and you *must* capture what `slice()` returns.
+
 ## Requirements
 
 - Use `slice()`
