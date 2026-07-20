@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 17 — Update Nested Value
 // Instructions: 17-update-nested-value.md
 //
@@ -10,7 +11,9 @@
 
 const user = {
   name: "Tugu",
-  address: { city: "Ulaanbaatar", country: "Mongolia" }
+  address: { city: "Ulaanbaatar", country: "Mongolia" },
 };
 
 // --- your code below ---
+user.address.city = "Darkhan";
+console.log(user);

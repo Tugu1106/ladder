@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 13 — shift()
 // Instructions: 13-shift.md
 //
@@ -10,3 +11,5 @@
 let letters = ["a", "b", "c"];
 
 // --- your code below ---
+letters.shift();
+console.log(letters);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 10 — Multiple push()
 // Instructions: 10-multiple-push.md
 //
@@ -9,3 +10,6 @@
 let animals = ["cat", "dog", "bird"];
 
 // --- your code below ---
+
+animals.push("fish", "horse", "rabbit");
+console.log(animals);

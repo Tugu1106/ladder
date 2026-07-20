@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 18 — Array Inside Object
 // Instructions: 18-array-inside-object.md
 //
@@ -13,3 +14,4 @@
 const student = { name: "Tugu", skills: ["JavaScript", "Git", "React"] };
 
 // --- your code below ---
+console.log(student.skills[2]);

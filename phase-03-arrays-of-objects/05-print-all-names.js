@@ -1,3 +1,4 @@
+// ✅ DONE — fixed. user.name prints Tugu / Alex / John, correct.
 // Exercise 5 — Print All Names
 // Instructions: 05-print-all-names.md
 //
@@ -15,7 +16,10 @@
 const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+for (let user of users) {
+  console.log(user.name);
+}

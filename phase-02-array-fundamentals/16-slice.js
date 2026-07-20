@@ -1,3 +1,8 @@
+// ✅ DONE — the slice is correct.
+//    But the task asked you to print BOTH arrays (original AND new) to prove
+//    slice() didn't touch the original. You only printed the new one. Add:
+//        console.log("original:", numbers);
+//    and you'll see [1,2,3,4,5] survived — which is the whole lesson of slice.
 // Exercise 16 — slice()
 // Instructions: 16-slice.md
 //
@@ -14,3 +19,4 @@
 const numbers = [1, 2, 3, 4, 5];
 
 // --- your code below ---
+console.log(numbers.slice(1, 4));

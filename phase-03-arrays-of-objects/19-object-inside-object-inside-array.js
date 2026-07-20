@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 19 — Object Inside Object Inside Array
 // Instructions: 19-object-inside-object-inside-array.md
 //
@@ -15,3 +16,4 @@
 const companies = [{ name: "Google", employees: { count: 100000 } }];
 
 // --- your code below ---
+console.log(companies[0].employees.count);

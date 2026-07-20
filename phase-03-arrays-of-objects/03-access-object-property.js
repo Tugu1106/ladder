@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 3 — Access Object Property
 // Instructions: 03-access-object-property.md
 //
@@ -12,7 +13,8 @@
 const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+console.log(users[0].name);

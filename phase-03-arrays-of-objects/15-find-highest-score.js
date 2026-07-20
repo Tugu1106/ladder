@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Find Highest Score
 // Instructions: 15-find-highest-score.md
 //
@@ -16,7 +17,13 @@
 const players = [
   { name: "Tom", score: 80 },
   { name: "Bob", score: 95 },
-  { name: "Sam", score: 70 }
+  { name: "Sam", score: 70 },
 ];
-
+let max = players[0];
 // --- your code below ---
+for (let player of players) {
+  if (player.score > max.score) {
+    max = player;
+  }
+}
+console.log(max);

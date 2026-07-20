@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 6 — Count Items
 // Instructions: 06-count-items.md
 //
@@ -10,3 +11,4 @@
 const colors = ["red", "blue", "green", "yellow"];
 
 // --- your code below ---
+console.log(colors.length);

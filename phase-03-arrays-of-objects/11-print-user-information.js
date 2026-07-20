@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 11 — Print User Information
 // Instructions: 11-print-user-information.md
 //
@@ -16,7 +17,10 @@
 
 const users = [
   { name: "John", age: 20 },
-  { name: "Jane", age: 30 }
+  { name: "Jane", age: 30 },
 ];
 
 // --- your code below ---
+for (let user of users) {
+  console.log(`${user.name} is ${user.age} years old`);
+}

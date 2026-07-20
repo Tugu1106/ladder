@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 7 — Add Property
 // Instructions: 07-add-property.md
 //
@@ -12,7 +13,11 @@
 const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+for (let user of users) {
+  user.country = "Mongolia";
+}
+console.log(users);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 17 — splice remove
 // Instructions: 17-splice-remove.md
 //
@@ -13,3 +14,5 @@
 const colors = ["red", "blue", "green", "black"];
 
 // --- your code below ---
+colors.splice(2, 1);
+console.log(colors);

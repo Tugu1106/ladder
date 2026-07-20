@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Create an Array
 // Instructions: 01-create-array.md
 //
@@ -8,3 +9,5 @@
 //   [ 'apple', 'banana', 'orange' ]
 
 // --- your code below ---
+const fruits = ["apple", "banana", "orange"];
+console.log(fruits);

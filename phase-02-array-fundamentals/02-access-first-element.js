@@ -1,3 +1,4 @@
+// ✅ DONE — fixed. fruits[0] prints apple, correct.
 // Exercise 2 — Access First Element
 // Instructions: 02-access-first-element.md
 //
@@ -10,3 +11,5 @@
 const fruits = ["apple", "banana", "orange"];
 
 // --- your code below ---
+
+console.log(fruits[0]);

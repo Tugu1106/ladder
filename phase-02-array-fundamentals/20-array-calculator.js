@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 20 — Array Calculator ⭐
 // Instructions: 20-array-calculator.md
 //
@@ -17,3 +18,8 @@
 const numbers = [10, 20, 30, 40];
 
 // --- your code below ---
+let total = 0;
+for (let i = 0; i < numbers.length; i++) {
+  total += numbers[i];
+}
+console.log(total);

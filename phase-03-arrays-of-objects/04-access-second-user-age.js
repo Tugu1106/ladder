@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Access Second User Age
 // Instructions: 04-access-second-user-age.md
 //
@@ -10,7 +11,8 @@
 const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+console.log(users[1].age);

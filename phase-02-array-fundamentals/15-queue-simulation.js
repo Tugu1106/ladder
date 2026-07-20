@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Queue Simulation
 // Instructions: 15-queue-simulation.md
 //
@@ -12,3 +13,6 @@
 let queue = ["John", "Jane", "Bob"];
 
 // --- your code below ---
+queue.push("Alex");
+queue.shift();
+console.log(queue);

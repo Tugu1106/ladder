@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 9 — Add New User
 // Instructions: 09-add-new-user.md
 //
@@ -11,7 +12,9 @@
 const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+users.push({ name: "Sarah", age: 28 });
+console.log(users);

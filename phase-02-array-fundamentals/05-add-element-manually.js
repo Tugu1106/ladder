@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 5 — Add Element Manually
 // Instructions: 05-add-element-manually.md
 //
@@ -10,3 +11,5 @@
 const fruits = ["apple", "mango", "orange"];
 
 // --- your code below ---
+fruits[3] = "grape";
+console.log(fruits);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Create User List
 // Instructions: 01-create-user-list.md
 //
@@ -8,3 +9,20 @@
 //   [ { name: 'Tugu', age: 22 }, { name: 'Alex', age: 25 }, { name: 'John', age: 30 } ]
 
 // --- your code below ---
+
+const users = [
+  {
+    name: "Tugu",
+    age: 22,
+  },
+  {
+    name: "Alex",
+    age: 25,
+  },
+  {
+    name: "John",
+    age: 30,
+  },
+];
+
+console.log(users);

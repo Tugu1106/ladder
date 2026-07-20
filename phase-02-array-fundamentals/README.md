@@ -1,5 +1,30 @@
 # Phase 2 — Array Fundamentals (20 Exercises)
 
+**Status: ✅ complete — all 20 reviewed and running correctly.**
+
+| # | Exercise | Status |
+| --- | --- | --- |
+| 01 | Create an Array | ✅ |
+| 02 | Access First Element | ✅ fixed — `fruits[0]` |
+| 03 | Access Last Element | ✅ |
+| 04 | Change an Element | ✅ |
+| 05 | Add Element Manually | ✅ |
+| 06 | Count Items | ✅ |
+| 07 | Empty Array | ✅ |
+| 08 | Replace Multiple Values | ✅ |
+| 09 | push() | ✅ |
+| 10 | Multiple push() | ✅ |
+| 11 | pop() | ✅ |
+| 12 | Store Removed Value | ✅ |
+| 13 | shift() | ✅ |
+| 14 | unshift() | ✅ |
+| 15 | Queue Simulation | ✅ |
+| 16 | slice() | ✅ · only printed the new array, not both |
+| 17 | splice remove | ✅ |
+| 18 | splice insert | ✅ |
+| 19 | Print Every Item | ✅ |
+| 20 | Array Calculator ⭐ | ✅ |
+
 Difficulty: ⭐☆☆☆☆ → ⭐⭐☆☆☆
 
 ## 📖 Introduction

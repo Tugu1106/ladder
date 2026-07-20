@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 13 — Find User Manually
 // Instructions: 13-find-user-manually.md
 //
@@ -15,3 +16,9 @@
 const users = [{ name: "Alex" }, { name: "John" }, { name: "Sarah" }];
 
 // --- your code below ---
+for (let user of users) {
+  if (user.name === "John") {
+    console.log(user);
+    break;
+  }
+}

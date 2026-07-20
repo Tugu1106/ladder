@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Change an Element
 // Instructions: 04-change-element.md
 //
@@ -10,3 +11,5 @@
 const fruits = ["apple", "banana", "orange"];
 
 // --- your code below ---
+fruits[1] = "mango";
+console.log(fruits);

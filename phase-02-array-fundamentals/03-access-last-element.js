@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 3 — Access Last Element
 // Instructions: 03-access-last-element.md
 //
@@ -10,3 +11,4 @@
 const fruits = ["apple", "banana", "orange"];
 
 // --- your code below ---
+console.log(fruits[fruits.length - 1]);

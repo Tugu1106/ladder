@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 2 — Access First Object
 // Instructions: 02-access-first-object.md
 //
@@ -9,7 +10,8 @@
 const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+console.log(users[0]);

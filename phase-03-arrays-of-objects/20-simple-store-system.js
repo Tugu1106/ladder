@@ -1,3 +1,9 @@
+// ✅ DONE — all three tasks correct, output 1500.
+//    One naming note: you called the Task 3 total 'maxValue'. It's not a
+//    maximum — it's a running SUM (total inventory value). A reader seeing
+//    'maxValue' would expect the single biggest item, not the total. Name it
+//    'totalValue' or 'inventoryValue'. Naming is real: it tells the next
+//    person (you, later) what the variable means.
 // Exercise 20 — Simple Store System ⭐
 // Instructions: 20-simple-store-system.md
 //
@@ -24,13 +30,28 @@
 const products = [
   { name: "Keyboard", price: 50, stock: 10 },
   { name: "Mouse", price: 20, stock: 0 },
-  { name: "Monitor", price: 200, stock: 5 }
+  { name: "Monitor", price: 200, stock: 5 },
 ];
 
 // --- Task 1 ---
-
-
+for (let product of products) {
+  console.log(`${product.name} - $${product.price}`);
+}
+console.log(
+  "----------------------------------------------------------------------\n",
+);
 // --- Task 2 ---
-
-
+for (let product of products) {
+  if (product.stock > 0) {
+    console.log(product.name);
+  }
+}
+console.log(
+  "----------------------------------------------------------------------\n",
+);
 // --- Task 3 ---
+let totalValue = 0;
+for (let product of products) {
+  totalValue += product.price * product.stock;
+}
+console.log(totalValue);

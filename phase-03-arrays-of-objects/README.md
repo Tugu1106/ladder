@@ -1,5 +1,30 @@
 # Phase 3 — Arrays of Objects (20 Exercises)
 
+**Status: ✅ complete — all 20 reviewed and running correctly.**
+
+| #   | Exercise                          | Status                 |
+| --- | --------------------------------- | ---------------------- |
+| 01  | Create User List                  | ✅                     |
+| 02  | Access First Object               | ✅                     |
+| 03  | Access Object Property            | ✅                     |
+| 04  | Access Second User Age            | ✅                     |
+| 05  | Print All Names                   | ✅ fixed — `user.name` |
+| 06  | Change Property                   | ✅                     |
+| 07  | Add Property                      | ✅                     |
+| 08  | Delete Property                   | ✅                     |
+| 09  | Add New User                      | ✅                     |
+| 10  | Remove User                       | ✅                     |
+| 11  | Print User Information            | ✅                     |
+| 12  | Count Total Age                   | ✅                     |
+| 13  | Find User Manually                | ✅                     |
+| 14  | Count Adults                      | ✅                     |
+| 15  | Find Highest Score                | ✅                     |
+| 16  | Access Nested Object              | ✅                     |
+| 17  | Update Nested Value               | ✅                     |
+| 18  | Array Inside Object               | ✅                     |
+| 19  | Object Inside Object Inside Array | ✅                     |
+| 20  | Simple Store System ⭐            | ✅                     |
+
 Difficulty: ⭐⭐☆☆☆ → ⭐⭐⭐☆☆
 
 ## 📖 Introduction
@@ -12,7 +37,7 @@ Almost everything you touch later will look like this:
 ```javascript
 const users = [
   { id: 1, name: "John", age: 25 },
-  { id: 2, name: "Jane", age: 30 }
+  { id: 2, name: "Jane", age: 30 },
 ];
 ```
 
@@ -43,9 +68,9 @@ lists, user lists, messages, posts.
 After Phase 3 you should be comfortable reading:
 
 ```javascript
-products[0].price
-users[2].address.city
-orders[0].items[2].name
+products[0].price;
+users[2].address.city;
+orders[0].items[2].name;
 ```
 
 because this exact pattern appears everywhere.

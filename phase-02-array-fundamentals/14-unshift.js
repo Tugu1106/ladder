@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 14 — unshift()
 // Instructions: 14-unshift.md
 //
@@ -13,3 +14,5 @@
 let letters = ["b", "c"];
 
 // --- your code below ---
+letters.unshift("first");
+console.log(letters);

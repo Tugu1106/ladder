@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 10 — Remove User
 // Instructions: 10-remove-user.md
 //
@@ -12,7 +13,9 @@ const users = [
   { name: "Tugu", age: 22 },
   { name: "Alex", age: 25 },
   { name: "John", age: 30 },
-  { name: "Sarah", age: 28 }
+  { name: "Sarah", age: 28 },
 ];
 
 // --- your code below ---
+users.pop();
+console.log(users);

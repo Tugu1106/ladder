@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 9 — push()
 // Instructions: 09-push.md
 //
@@ -12,3 +13,5 @@
 let animals = ["cat", "dog"];
 
 // --- your code below ---
+animals.push("bird");
+console.log(animals);

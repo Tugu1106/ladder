@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 8 — Replace Multiple Values
 // Instructions: 08-replace-multiple-values.md
 //
@@ -10,3 +11,6 @@
 const numbers = [10, 20, 30, 40];
 
 // --- your code below ---
+numbers[0] = 100;
+numbers[2] = 300;
+console.log(numbers);

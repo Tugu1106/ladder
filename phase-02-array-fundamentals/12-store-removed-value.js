@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 12 — Store Removed Value
 // Instructions: 12-store-removed-value.md
 //
@@ -9,3 +10,5 @@
 let games = ["Minecraft", "CS2", "Valorant"];
 
 // --- your code below ---
+const removedGame = games.pop();
+console.log(removedGame);

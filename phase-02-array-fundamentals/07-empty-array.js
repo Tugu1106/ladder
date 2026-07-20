@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 7 — Empty Array
 // Instructions: 07-empty-array.md
 //
@@ -10,3 +11,7 @@
 let inventory = [];
 
 // --- your code below ---
+inventory[0] = "sword";
+inventory[1] = "shield";
+inventory[2] = "potion";
+console.log(inventory);

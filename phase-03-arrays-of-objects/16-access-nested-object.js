@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 16 — Access Nested Object
 // Instructions: 16-access-nested-object.md
 //
@@ -9,7 +10,8 @@
 
 const user = {
   name: "Tugu",
-  address: { city: "Ulaanbaatar", country: "Mongolia" }
+  address: { city: "Ulaanbaatar", country: "Mongolia" },
 };
 
 // --- your code below ---
+console.log(user.address.city);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 18 — splice insert
 // Instructions: 18-splice-insert.md
 //
@@ -12,3 +13,5 @@
 const colors = ["red", "blue"];
 
 // --- your code below ---
+colors.splice(1, 0, "yellow");
+console.log(colors);

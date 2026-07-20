@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 11 — pop()
 // Instructions: 11-pop.md
 //
@@ -14,3 +15,5 @@
 let animals = ["cat", "dog", "bird", "fish", "horse", "rabbit"];
 
 // --- your code below ---
+console.log(animals.pop());
+console.log(animals);
