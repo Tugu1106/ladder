@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Count Items
 // Instructions: 04-count-items.md
 //
@@ -13,3 +14,9 @@
 const fruits = ["apple", "banana", "orange"];
 
 // --- your code below ---
+let counter = 0;
+fruits.forEach((element) => {
+  counter++;
+});
+
+console.log(counter);

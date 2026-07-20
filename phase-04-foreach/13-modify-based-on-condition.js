@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 13 — Modify Based On Condition
 // Instructions: 13-modify-based-on-condition.md
 //
@@ -17,7 +18,16 @@
 const students = [
   { name: "John", score: 80 },
   { name: "Jane", score: 95 },
-  { name: "Bob", score: 60 }
+  { name: "Bob", score: 60 },
 ];
 
 // --- your code below ---
+students.forEach((student) => {
+  if (student.score >= 70) {
+    student.passed = true;
+  } else {
+    student.passed = false;
+  }
+});
+
+console.log(students);

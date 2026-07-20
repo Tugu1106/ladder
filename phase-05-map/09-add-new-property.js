@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 9 — Add New Property
 // Instructions: 09-add-new-property.md
 //
@@ -23,3 +24,6 @@
 const users = [{ name: "John" }, { name: "Jane" }];
 
 // --- your code below ---
+const newUsers = users.map((user) => ({ ...user, role: "student" }));
+
+console.log(newUsers);

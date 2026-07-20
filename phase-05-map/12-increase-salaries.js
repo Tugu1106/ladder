@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 12 — Increase Salaries
 // Instructions: 12-increase-salaries.md
 //
@@ -17,7 +18,13 @@
 
 const employees = [
   { name: "Alex", salary: 3000 },
-  { name: "John", salary: 4000 }
+  { name: "John", salary: 4000 },
 ];
 
 // --- your code below ---
+const increased = employees.map((employee) => ({
+  ...employee,
+  salary: employee.salary + 500,
+}));
+
+console.log(increased);

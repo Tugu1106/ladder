@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 12 — Use Index
 // Instructions: 12-use-index.md
 //
@@ -19,3 +20,6 @@
 const fruits = ["apple", "banana", "orange"];
 
 // --- your code below ---
+fruits.forEach((element, index) => {
+  console.log(index, element);
+});

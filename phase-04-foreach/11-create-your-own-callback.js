@@ -1,3 +1,9 @@
+// ✅ DONE — output correct, and nicely done.
+//    You defined printColor AFTER calling it. That WORKS because named
+//    function declarations are 'hoisted' — JavaScript reads all function
+//    declarations before running the file, so the name exists early.
+//    (Note: this only works for 'function foo() {}' declarations, NOT for
+//    'const foo = () => {}' — those aren't hoisted the same way.)
 // Exercise 11 — Create Your Own Callback
 // Instructions: 11-create-your-own-callback.md
 //
@@ -18,4 +24,9 @@
 
 const colors = ["red", "blue", "green"];
 
+function printColor(color) {
+  console.log(`Color: ${color}`);
+}
+
 // --- your code below ---
+colors.forEach(printColor);

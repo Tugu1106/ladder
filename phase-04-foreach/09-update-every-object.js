@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 9 — Update Every Object
 // Instructions: 09-update-every-object.md
 //
@@ -16,7 +17,12 @@
 
 const users = [
   { name: "John", active: false },
-  { name: "Jane", active: false }
+  { name: "Jane", active: false },
 ];
 
 // --- your code below ---
+users.forEach((element) => {
+  element.active = true;
+});
+
+console.log(users);

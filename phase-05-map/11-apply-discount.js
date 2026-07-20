@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 11 — Apply Discount
 // Instructions: 11-apply-discount.md
 //
@@ -12,3 +13,5 @@
 const prices = [100, 200, 300];
 
 // --- your code below ---
+const discounted = prices.map((price) => price * 0.9);
+console.log(discounted);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 17 — Calculate Total Per Item
 // Instructions: 17-calculate-total-per-item.md
 //
@@ -13,7 +14,9 @@
 
 const cart = [
   { name: "Keyboard", price: 50, quantity: 2 },
-  { name: "Mouse", price: 20, quantity: 3 }
+  { name: "Mouse", price: 20, quantity: 3 },
 ];
 
 // --- your code below ---
+const totaled = cart.map((product) => product.price * product.quantity);
+console.log(totaled);

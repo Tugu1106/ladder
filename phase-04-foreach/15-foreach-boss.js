@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Mini Boss ⭐
 // Instructions: 15-foreach-boss.md
 //
@@ -28,13 +29,24 @@
 const employees = [
   { name: "Alex", salary: 3000 },
   { name: "John", salary: 4000 },
-  { name: "Sarah", salary: 5000 }
+  { name: "Sarah", salary: 5000 },
 ];
 
 // --- Task 1 ---
-
-
+employees.forEach((element) => {
+  console.log(`${element.name} earns ${element.salary}`);
+});
+console.log("---------------------------------------------------------------");
 // --- Task 2 ---
-
+let total = 0;
+employees.forEach((element) => {
+  total += element.salary;
+});
+console.log(total);
+console.log("---------------------------------------------------------------");
 
 // --- Task 3 ---
+employees.forEach((element) => {
+  element.company = "OpenAI";
+});
+console.log(employees);

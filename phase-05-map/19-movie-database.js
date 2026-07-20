@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 19 — Movie Database
 // Instructions: 19-movie-database.md
 //
@@ -13,7 +14,10 @@
 const movies = [
   { title: "Interstellar", year: 2014 },
   { title: "Inception", year: 2010 },
-  { title: "Avatar", year: 2009 }
+  { title: "Avatar", year: 2009 },
 ];
 
 // --- your code below ---
+
+const movieDatabase = movies.map((movie) => `${movie.title} (${movie.year})`);
+console.log(movieDatabase);

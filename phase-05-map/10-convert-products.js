@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 10 — Convert Products
 // Instructions: 10-convert-products.md
 //
@@ -11,7 +12,12 @@
 
 const products = [
   { name: "Keyboard", price: 50 },
-  { name: "Mouse", price: 20 }
+  { name: "Mouse", price: 20 },
 ];
 
 // --- your code below ---
+const converted = products.map(
+  (product) => `${product.name} costs $${product.price}`,
+);
+
+console.log(converted);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Add Prefix
 // Instructions: 04-add-prefix.md
 //
@@ -11,3 +12,6 @@
 const names = ["John", "Jane", "Bob"];
 
 // --- your code below ---
+const prefixed = names.map((name) => `Mr. ${name}`);
+
+console.log(prefixed);

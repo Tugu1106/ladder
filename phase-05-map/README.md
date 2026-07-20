@@ -1,5 +1,30 @@
 # Phase 5 — map() (20 Exercises)
 
+**Status: ✅ complete — all 20 correct on the first pass.**
+
+| # | Exercise | Status |
+| --- | --- | --- |
+| 01 | Double Numbers | ✅ |
+| 02 | Square Numbers | ✅ |
+| 03 | Convert Celsius | ✅ · `Fahrenheit` → camelCase `fahrenheit` |
+| 04 | Add Prefix | ✅ |
+| 05 | Get String Lengths | ✅ · `length` → plural `lengths` (it's an array) |
+| 06 | Extract Names | ✅ |
+| 07 | Extract Ages | ✅ |
+| 08 | Create User Descriptions | ✅ |
+| 09 | Add New Property | ✅ spread — nailed it |
+| 10 | Convert Products | ✅ |
+| 11 | Apply Discount | ✅ |
+| 12 | Increase Salaries | ✅ spread + override — nailed it |
+| 13 | Convert To Uppercase | ✅ |
+| 14 | Create IDs | ✅ |
+| 15 | Add Index | ✅ |
+| 16 | Shopping Cart Names | ✅ |
+| 17 | Calculate Total Per Item | ✅ |
+| 18 | User Cards | ✅ |
+| 19 | Movie Database | ✅ |
+| 20 | Mini Boss ⭐ | ✅ |
+
 ## 📖 Introduction
 
 You already learned: Phase 1 → Objects, Phase 2 → Arrays, Phase 3 → Arrays of

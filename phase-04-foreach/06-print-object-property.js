@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 6 — Print Object Property
 // Instructions: 06-print-object-property.md
 //
@@ -15,7 +16,10 @@
 
 const users = [
   { name: "John", age: 20 },
-  { name: "Jane", age: 25 }
+  { name: "Jane", age: 25 },
 ];
 
 // --- your code below ---
+users.forEach((element) => {
+  console.log(element.name);
+});

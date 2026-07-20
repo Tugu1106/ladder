@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 2 — Square Numbers
 // Instructions: 02-square-numbers.md
 //
@@ -19,3 +20,8 @@
 const numbers = [2, 3, 4, 5];
 
 // --- your code below ---
+const squared = numbers.map((number) => {
+  return number * number;
+});
+
+console.log(squared);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 3 — Add All Numbers
 // Instructions: 03-add-all-numbers.md
 //
@@ -11,5 +12,9 @@
 //   30
 
 const numbers = [5, 10, 15];
-
+let total = 0;
 // --- your code below ---
+numbers.forEach((number) => {
+  total += number;
+});
+console.log(total);

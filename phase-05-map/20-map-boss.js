@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 20 — Mini Boss ⭐
 // Instructions: 20-map-boss.md
 //
@@ -22,13 +23,19 @@
 const products = [
   { name: "Laptop", price: 1000, quantity: 2 },
   { name: "Phone", price: 500, quantity: 3 },
-  { name: "Mouse", price: 50, quantity: 10 }
+  { name: "Mouse", price: 50, quantity: 10 },
 ];
 
 // --- Task 1 ---
-
+const task1 = products.map((product) => product.name);
+console.log(task1);
 
 // --- Task 2 ---
-
-
+const task2 = products.map((product) => product.price * product.quantity);
+console.log(task2);
 // --- Task 3 ---
+const task3 = products.map((product) => ({
+  name: product.name,
+  total: product.price * product.quantity,
+}));
+console.log(task3);

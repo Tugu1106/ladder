@@ -1,3 +1,8 @@
+// ✅ DONE — output correct.
+//    Naming note: you called it `length` (singular), but it holds an ARRAY of
+//    lengths — so `lengths` (plural) reads truer. Plural names for arrays is a
+//    tiny habit that makes code self-explaining: `lengths.map(...)` tells you
+//    it's many, `length` suggests one number.
 // Exercise 5 — Get String Lengths
 // Instructions: 05-get-string-lengths.md
 //
@@ -13,3 +18,5 @@
 const words = ["apple", "banana", "cat"];
 
 // --- your code below ---
+const length = words.map((word) => word.length);
+console.log(length);

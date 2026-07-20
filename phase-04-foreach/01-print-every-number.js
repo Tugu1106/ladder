@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Print Every Number
 // Instructions: 01-print-every-number.md
 //
@@ -21,3 +22,6 @@
 const numbers = [10, 20, 30, 40];
 
 // --- your code below ---
+numbers.forEach((number) => {
+  console.log(number);
+});

@@ -1,5 +1,25 @@
 # Phase 4 — forEach() (15 Exercises)
 
+**Status: ✅ complete — all 15 correct on the first pass.**
+
+| # | Exercise | Status |
+| --- | --- | --- |
+| 01 | Print Every Number | ✅ |
+| 02 | Double Numbers | ✅ |
+| 03 | Add All Numbers | ✅ |
+| 04 | Count Items | ✅ |
+| 05 | Print With Text | ✅ |
+| 06 | Print Object Property | ✅ |
+| 07 | Print Full Information | ✅ |
+| 08 | Calculate Total Age | ✅ |
+| 09 | Update Every Object | ✅ |
+| 10 | Add Property To Objects | ✅ · used `"Computer"`, spec says `"computer"` |
+| 11 | Create Your Own Callback | ✅ · defined function after call (hoisting) |
+| 12 | Use Index | ✅ |
+| 13 | Modify Based On Condition | ✅ |
+| 14 | Shopping Cart | ✅ |
+| 15 | Mini Boss ⭐ | ✅ |
+
 ## 📖 Introduction
 
 Phase 4 is where you start transitioning from traditional programming style

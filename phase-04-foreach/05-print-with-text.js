@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 5 — Print With Text
 // Instructions: 05-print-with-text.md
 //
@@ -14,3 +15,6 @@
 const names = ["John", "Jane", "Bob"];
 
 // --- your code below ---
+names.forEach((element) => {
+  console.log(`Hello ${element}`);
+});

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 6 — Extract Names
 // Instructions: 06-extract-names.md
 //
@@ -15,7 +16,9 @@
 
 const users = [
   { name: "John", age: 20 },
-  { name: "Jane", age: 25 }
+  { name: "Jane", age: 25 },
 ];
 
 // --- your code below ---
+const names = users.map((user) => user.name);
+console.log(names);

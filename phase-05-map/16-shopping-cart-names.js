@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 16 — Shopping Cart Names
 // Instructions: 16-shopping-cart-names.md
 //
@@ -11,7 +12,9 @@
 
 const cart = [
   { item: "Keyboard", quantity: 2 },
-  { item: "Mouse", quantity: 1 }
+  { item: "Mouse", quantity: 1 },
 ];
 
 // --- your code below ---
+const plucked = cart.map((item) => item.item);
+console.log(plucked);

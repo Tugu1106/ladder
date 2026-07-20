@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 14 — Shopping Cart
 // Instructions: 14-shopping-cart.md
 //
@@ -13,7 +14,12 @@
 const cart = [
   { name: "Keyboard", price: 50 },
   { name: "Mouse", price: 20 },
-  { name: "Monitor", price: 200 }
+  { name: "Monitor", price: 200 },
 ];
-
+let total = 0;
 // --- your code below ---
+cart.forEach((element) => {
+  total += element.price;
+});
+
+console.log(total);

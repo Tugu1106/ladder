@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Add Index
 // Instructions: 15-add-index.md
 //
@@ -12,3 +13,6 @@
 const colors = ["red", "blue", "green"];
 
 // --- your code below ---
+const indexed = colors.map((color, index) => `${index}: ${color}`);
+
+console.log(indexed);

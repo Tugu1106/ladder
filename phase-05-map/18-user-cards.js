@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 18 — User Cards
 // Instructions: 18-user-cards.md
 //
@@ -15,7 +16,13 @@
 
 const users = [
   { name: "Alex", age: 20 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+const reshaped = users.map((person) => ({
+  title: person.name,
+  description: `Age:${person.age}`,
+}));
+
+console.log(reshaped);

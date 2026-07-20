@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 08 — Calculate Total Age
 // Instructions: 08-calculate-total-age.md
 //
@@ -12,7 +13,12 @@
 const people = [
   { name: "A", age: 10 },
   { name: "B", age: 20 },
-  { name: "C", age: 30 }
+  { name: "C", age: 30 },
 ];
-
+let total = 0;
 // --- your code below ---
+people.forEach((element) => {
+  total += element.age;
+});
+
+console.log(total);

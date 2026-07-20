@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 13 — Convert To Uppercase
 // Instructions: 13-convert-to-uppercase.md
 //
@@ -13,3 +14,6 @@
 const users = [{ name: "john" }, { name: "jane" }];
 
 // --- your code below ---
+const upper = users.map((user) => user.name.toUpperCase());
+
+console.log(upper);

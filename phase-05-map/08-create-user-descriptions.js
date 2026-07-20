@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 08 — Create User Descriptions
 // Instructions: 08-create-user-descriptions.md
 //
@@ -16,3 +17,7 @@
 const users = [{ name: "John", age: 20 }];
 
 // --- your code below ---
+const usersWithDescription = users.map(
+  (user) => `${user.name} is ${user.age} years old`,
+);
+console.log(usersWithDescription);

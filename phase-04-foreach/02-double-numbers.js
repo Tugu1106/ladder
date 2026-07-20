@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 2 — Double Numbers
 // Instructions: 02-double-numbers.md
 //
@@ -16,3 +17,6 @@
 const numbers = [1, 2, 3, 4];
 
 // --- your code below ---
+numbers.forEach((number) => {
+  console.log(number * 2);
+});

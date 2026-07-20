@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Double Numbers
 // Instructions: 01-double-numbers.md
 //
@@ -22,3 +23,7 @@
 const numbers = [1, 2, 3, 4];
 
 // --- your code below ---
+const doubled = numbers.map((number) => {
+  return number * 2;
+});
+console.log(doubled);

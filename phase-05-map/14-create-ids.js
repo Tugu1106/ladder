@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 14 — Create IDs
 // Instructions: 14-create-ids.md
 //
@@ -16,3 +17,5 @@
 const names = ["Alex", "John", "Sarah"];
 
 // --- your code below ---
+const users = names.map((name, index) => ({ id: index + 1, name: name }));
+console.log(users);
