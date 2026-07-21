@@ -1,3 +1,9 @@
+// ✅ DONE — output correct, but the naming is a real trap.
+//    You named the parameter `users` (plural) — the SAME as the array:
+//        users.filter((users) => !users.banned)
+//    It works ONLY because inside the callback `users` now means the single
+//    element, shadowing the outer array. Each element is ONE user, so name it
+//    `user` (singular). Confusing names cause confusing bugs.
 // Exercise 13 — Remove Banned Users
 // Instructions: 13-remove-banned-users.md
 //
@@ -12,7 +18,9 @@
 
 const users = [
   { name: "Alex", banned: false },
-  { name: "John", banned: true }
+  { name: "John", banned: true },
 ];
 
 // --- your code below ---
+const bannedUsers = users.filter((users) => !users.banned);
+console.log(bannedUsers);

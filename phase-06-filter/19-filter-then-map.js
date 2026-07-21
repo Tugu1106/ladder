@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 19 — Filter Then Map
 // Instructions: 19-filter-then-map.md
 //
@@ -22,7 +23,9 @@
 const users = [
   { name: "Alex", age: 20 },
   { name: "John", age: 15 },
-  { name: "Sarah", age: 30 }
+  { name: "Sarah", age: 30 },
 ];
 
 // --- your code below ---
+const result = users.filter((user) => user.age >= 18).map((user) => user.name);
+console.log(result);

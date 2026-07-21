@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 14 — Stock System
 // Instructions: 14-stock-system.md
 //
@@ -14,7 +15,10 @@
 
 const products = [
   { name: "Laptop", stock: 5 },
-  { name: "Mouse", stock: 0 }
+  { name: "Mouse", stock: 0 },
 ];
 
 // --- your code below ---
+
+const availableProducts = products.filter((product) => product.stock > 0);
+console.log(availableProducts);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Keep Even Numbers
 // Instructions: 01-keep-even-numbers.md
 //
@@ -22,3 +23,6 @@
 const numbers = [1, 2, 3, 4, 5, 6];
 
 // --- your code below ---
+
+const evenNumbers = numbers.filter((number) => number % 2 === 0);
+console.log(evenNumbers);

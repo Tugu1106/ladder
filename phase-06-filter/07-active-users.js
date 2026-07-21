@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 7 — Active Users
 // Instructions: 07-active-users.md
 //
@@ -15,7 +16,9 @@
 const users = [
   { name: "Alex", active: true },
   { name: "John", active: false },
-  { name: "Sarah", active: true }
+  { name: "Sarah", active: true },
 ];
 
 // --- your code below ---
+const activeUsers = users.filter((user) => user.active);
+console.log(activeUsers);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 5 — Keep Long Words
 // Instructions: 05-keep-long-words.md
 //
@@ -14,3 +15,5 @@
 const words = ["cat", "elephant", "dog", "computer"];
 
 // --- your code below ---
+const longer = words.filter((word) => word.length > 5);
+console.log(longer);

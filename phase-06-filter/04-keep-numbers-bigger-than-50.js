@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Keep Numbers Bigger Than 50
 // Instructions: 04-keep-numbers-bigger-than-50.md
 //
@@ -13,3 +14,5 @@
 const numbers = [20, 60, 40, 90, 100];
 
 // --- your code below ---
+const biggerThan50 = numbers.filter((number) => number > 50);
+console.log(biggerThan50);

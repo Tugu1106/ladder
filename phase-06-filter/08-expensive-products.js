@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 8 — Expensive Products
 // Instructions: 08-expensive-products.md
 //
@@ -10,7 +11,9 @@
 const products = [
   { name: "Mouse", price: 20 },
   { name: "Keyboard", price: 100 },
-  { name: "Monitor", price: 300 }
+  { name: "Monitor", price: 300 },
 ];
 
 // --- your code below ---
+const expensive = products.filter((product) => product.price > 50);
+console.log(expensive);

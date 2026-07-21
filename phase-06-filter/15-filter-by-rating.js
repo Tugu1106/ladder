@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Filter By Rating
 // Instructions: 15-filter-by-rating.md
 //
@@ -14,7 +15,10 @@
 const movies = [
   { title: "A", rating: 8 },
   { title: "B", rating: 5 },
-  { title: "C", rating: 9 }
+  { title: "C", rating: 9 },
 ];
 
 // --- your code below ---
+
+const result = movies.filter((movie) => movie.rating >= 8);
+console.log(result);

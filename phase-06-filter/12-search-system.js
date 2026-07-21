@@ -1,3 +1,8 @@
+// ✅ DONE — output correct.
+//    Robustness note: you lowercased the NAME but not the keyword. It works
+//    because `keyword` is already "phone" (lowercase). But if the user typed
+//    "PHONE" it'd break. Lowercase BOTH sides:
+//        product.name.toLowerCase().includes(keyword.toLowerCase())
 // Exercise 12 — Search System
 // Instructions: 12-search-system.md
 //
@@ -20,3 +25,8 @@ const products = [{ name: "Laptop" }, { name: "Phone" }, { name: "Keyboard" }];
 const keyword = "phone";
 
 // --- your code below ---
+const result = products.filter((product) =>
+  product.name.toLowerCase().includes(keyword),
+);
+
+console.log(result);

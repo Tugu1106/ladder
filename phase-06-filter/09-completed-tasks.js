@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 9 — Completed Tasks
 // Instructions: 09-completed-tasks.md
 //
@@ -10,7 +11,9 @@
 const tasks = [
   { title: "Study", completed: true },
   { title: "Workout", completed: false },
-  { title: "Code", completed: true }
+  { title: "Code", completed: true },
 ];
 
 // --- your code below ---
+const completed = tasks.filter((task) => task.completed);
+console.log(completed);

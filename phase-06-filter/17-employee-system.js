@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 17 — Employee System
 // Instructions: 17-employee-system.md
 //
@@ -10,7 +11,10 @@
 const employees = [
   { name: "Alex", department: "IT" },
   { name: "John", department: "HR" },
-  { name: "Sarah", department: "IT" }
+  { name: "Sarah", department: "IT" },
 ];
 
 // --- your code below ---
+
+const result = employees.filter((employee) => employee.department === "IT");
+console.log(result);

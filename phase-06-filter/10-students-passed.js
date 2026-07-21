@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 10 — Students Passed
 // Instructions: 10-students-passed.md
 //
@@ -16,7 +17,9 @@
 const students = [
   { name: "Alex", score: 90 },
   { name: "John", score: 40 },
-  { name: "Sarah", score: 75 }
+  { name: "Sarah", score: 75 },
 ];
 
 // --- your code below ---
+const passed = students.filter((student) => student.score >= 60);
+console.log(passed);

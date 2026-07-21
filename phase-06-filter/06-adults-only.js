@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 6 — Adults Only
 // Instructions: 06-adults-only.md
 //
@@ -16,7 +17,9 @@
 const users = [
   { name: "Alex", age: 20 },
   { name: "John", age: 15 },
-  { name: "Sarah", age: 30 }
+  { name: "Sarah", age: 30 },
 ];
 
 // --- your code below ---
+const adults = users.filter((user) => user.age >= 18);
+console.log(adults);

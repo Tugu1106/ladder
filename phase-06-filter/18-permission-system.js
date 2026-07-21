@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 18 — Permission System
 // Instructions: 18-permission-system.md
 //
@@ -14,7 +15,9 @@
 const users = [
   { name: "Alex", role: "admin" },
   { name: "John", role: "user" },
-  { name: "Sarah", role: "admin" }
+  { name: "Sarah", role: "admin" },
 ];
 
 // --- your code below ---
+const admins = users.filter((user) => user.role === "admin");
+console.log(admins);

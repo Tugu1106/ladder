@@ -1,3 +1,7 @@
+// ✅ DONE — all three tasks correct.
+//    Tiny typo: the Task 3 map parameter is `prodct` (missing 'u'). Harmless
+//    because it's spelled the same both times inside the callback — but a
+//    typo'd name is one keystroke from a bug. Worth fixing to `product`.
 // Exercise 20 — Mini Boss ⭐
 // Instructions: 20-filter-boss.md
 //
@@ -23,13 +27,19 @@ const products = [
   { name: "Laptop", price: 1000, category: "computer" },
   { name: "Phone", price: 500, category: "mobile" },
   { name: "Mouse", price: 50, category: "computer" },
-  { name: "Keyboard", price: 100, category: "computer" }
+  { name: "Keyboard", price: 100, category: "computer" },
 ];
 
 // --- Task 1 ---
-
-
+const task1 = products.filter((product) => product.category === "computer");
+console.log(task1);
 // --- Task 2 ---
-
-
+const task2 = products.filter(
+  (product) => product.category === "computer" && product.price >= 100,
+);
+console.log(task2);
 // --- Task 3 ---
+const task3 = products
+  .filter((product) => product.category === "computer" && product.price >= 100)
+  .map((prodct) => prodct.name);
+console.log(task3);

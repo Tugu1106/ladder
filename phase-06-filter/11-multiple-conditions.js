@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 11 — Multiple Conditions
 // Instructions: 11-multiple-conditions.md
 //
@@ -16,7 +17,9 @@
 const users = [
   { name: "Alex", age: 25, active: true },
   { name: "John", age: 16, active: true },
-  { name: "Sarah", age: 30, active: false }
+  { name: "Sarah", age: 30, active: false },
 ];
 
 // --- your code below ---
+const newUsers = users.filter((user) => user.age >= 18 && user.active);
+console.log(newUsers);

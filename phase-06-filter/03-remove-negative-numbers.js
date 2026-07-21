@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 3 — Remove Negative Numbers
 // Instructions: 03-remove-negative-numbers.md
 //
@@ -13,3 +14,5 @@
 const numbers = [10, -5, 20, -3, 30];
 
 // --- your code below ---
+const positives = numbers.filter((number) => number > 0);
+console.log(positives);
