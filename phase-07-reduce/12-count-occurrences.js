@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 12 — Count Occurrences
 // Instructions: 12-count-occurrences.md
 //
@@ -25,3 +26,9 @@
 const colors = ["red", "blue", "red", "green", "blue"];
 
 // --- your code below ---
+const tally = colors.reduce((counts, color) => {
+  counts[color] = (counts[color] || 0) + 1;
+  return counts;
+}, {});
+
+console.log(tally);

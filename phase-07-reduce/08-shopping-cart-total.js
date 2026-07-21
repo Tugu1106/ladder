@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 8 — Shopping Cart Total
 // Instructions: 08-shopping-cart-total.md
 //
@@ -14,7 +15,12 @@
 
 const cart = [
   { name: "Laptop", price: 1000, quantity: 2 },
-  { name: "Mouse", price: 50, quantity: 3 }
+  { name: "Mouse", price: 50, quantity: 3 },
 ];
 
 // --- your code below ---
+const total = cart.reduce(
+  (total, product) => total + product.price * product.quantity,
+  0,
+);
+console.log(total);

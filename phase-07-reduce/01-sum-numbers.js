@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Sum Numbers
 // Instructions: 01-sum-numbers.md
 //
@@ -29,3 +30,5 @@
 const numbers = [1, 2, 3, 4, 5];
 
 // --- your code below ---
+const sum = numbers.reduce((sum, number) => sum + number, 0);
+console.log(sum);

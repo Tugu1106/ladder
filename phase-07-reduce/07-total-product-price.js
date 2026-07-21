@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 7 — Total Product Price
 // Instructions: 07-total-product-price.md
 //
@@ -12,7 +13,12 @@
 
 const products = [
   { name: "Keyboard", price: 50 },
-  { name: "Mouse", price: 20 }
+  { name: "Mouse", price: 20 },
 ];
 
 // --- your code below ---
+const totalPrice = products.reduce(
+  (total, product) => total + product.price,
+  0,
+);
+console.log(totalPrice);

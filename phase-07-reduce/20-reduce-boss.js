@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 20 — Final Boss ⭐
 // Instructions: 20-reduce-boss.md
 //
@@ -27,13 +28,22 @@ const orders = [
     customer: "Alex",
     items: [
       { name: "Laptop", price: 1000, quantity: 1 },
-      { name: "Mouse", price: 50, quantity: 2 }
-    ]
+      { name: "Mouse", price: 50, quantity: 2 },
+    ],
   },
   {
     customer: "John",
-    items: [{ name: "Keyboard", price: 100, quantity: 1 }]
-  }
+    items: [{ name: "Keyboard", price: 100, quantity: 1 }],
+  },
 ];
 
 // --- your code below ---
+const revenue = orders.reduce((revenue, order) => {
+  revenue += order.items.reduce((total, item) => {
+    total += item.price * item.quantity;
+    return total;
+  }, 0);
+  return revenue;
+}, 0);
+
+console.log(revenue);

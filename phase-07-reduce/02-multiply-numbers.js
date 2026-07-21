@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 2 — Multiply Numbers
 // Instructions: 02-multiply-numbers.md
 //
@@ -21,3 +22,5 @@
 const numbers = [2, 3, 4];
 
 // --- your code below ---
+const product = numbers.reduce((product, number) => product * number, 1);
+console.log(product);

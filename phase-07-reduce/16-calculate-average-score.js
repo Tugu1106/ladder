@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 16 — Calculate Average Score
 // Instructions: 16-calculate-average-score.md
 //
@@ -17,7 +18,13 @@
 const students = [
   { name: "Alex", score: 80 },
   { name: "John", score: 90 },
-  { name: "Sarah", score: 70 }
+  { name: "Sarah", score: 70 },
 ];
 
 // --- your code below ---
+const sum = students.reduce((sum, student) => {
+  sum += student.score;
+  return sum;
+}, 0);
+
+console.log(sum / students.length);

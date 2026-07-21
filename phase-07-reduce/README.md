@@ -1,5 +1,30 @@
 # Phase 7 — reduce() (20 Exercises)
 
+**Status: ✅ complete — all 20 correct on the first pass. The hardest phase, clean.**
+
+| # | Exercise | Status |
+| --- | --- | --- |
+| 01 | Sum Numbers | ✅ |
+| 02 | Multiply Numbers | ✅ initial value `1` — got the trap |
+| 03 | Find Maximum Number | ✅ seeded `numbers[0]` |
+| 04 | Count Items | ✅ |
+| 05 | Join Strings | ✅ handled the leading-space trap |
+| 06 | Total Ages | ✅ |
+| 07 | Total Product Price | ✅ |
+| 08 | Shopping Cart Total | ✅ |
+| 09 | Count Active Users | ✅ returned accumulator on both branches |
+| 10 | Find Longest Name | ✅ seeded `users[0].name` |
+| 11 | Group Numbers | ✅ object accumulator |
+| 12 | Count Occurrences | ✅ `|| 0` tally |
+| 13 | Convert Array To Object | ✅ lookup table |
+| 14 | Group Users By Role | ✅ groupBy with guard |
+| 15 | Shopping Cart Receipt | ✅ two accumulators, one pass |
+| 16 | Calculate Average Score | ✅ divided outside the reduce |
+| 17 | Inventory Value | ✅ |
+| 18 | Expense Tracker | ✅ · `total.total` reads oddly — name it `summary` |
+| 19 | Filter + Map + Reduce | ✅ full pipeline · `sum + price` cleaner than `sum += price` |
+| 20 | Final Boss ⭐ | ✅ nested reduce — nailed it |
+
 ## 📖 Introduction
 
 This is the most difficult and most powerful array method so far. After

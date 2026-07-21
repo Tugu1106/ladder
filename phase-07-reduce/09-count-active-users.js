@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 9 — Count Active Users
 // Instructions: 09-count-active-users.md
 //
@@ -20,7 +21,15 @@
 const users = [
   { name: "Alex", active: true },
   { name: "John", active: false },
-  { name: "Sarah", active: true }
+  { name: "Sarah", active: true },
 ];
 
 // --- your code below ---
+const activeUsersCount = users.reduce((count, user) => {
+  if (user.active) {
+    return count + 1;
+  }
+  return count;
+}, 0);
+
+console.log(activeUsersCount);

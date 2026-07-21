@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 6 — Total Ages
 // Instructions: 06-total-ages.md
 //
@@ -10,7 +11,9 @@
 const users = [
   { name: "Alex", age: 20 },
   { name: "John", age: 30 },
-  { name: "Sarah", age: 25 }
+  { name: "Sarah", age: 25 },
 ];
 
 // --- your code below ---
+const total = users.reduce((sum, user) => sum + user.age, 0);
+console.log(total);

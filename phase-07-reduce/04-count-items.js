@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Count Items
 // Instructions: 04-count-items.md
 //
@@ -13,3 +14,5 @@
 const fruits = ["apple", "banana", "orange"];
 
 // --- your code below ---
+const count = fruits.reduce((count, fruit) => count + 1, 0);
+console.log(count);

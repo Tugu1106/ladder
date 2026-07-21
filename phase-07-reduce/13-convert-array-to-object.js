@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 13 — Convert Array To Object
 // Instructions: 13-convert-array-to-object.md
 //
@@ -19,7 +20,13 @@
 
 const users = [
   { id: 1, name: "Alex" },
-  { id: 2, name: "John" }
+  { id: 2, name: "John" },
 ];
 
 // --- your code below ---
+const transformed = users.reduce((object, user) => {
+  object[user.id] = { name: user.name };
+  return object;
+}, {});
+
+console.log(transformed);

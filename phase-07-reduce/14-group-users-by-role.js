@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 14 — Group Users By Role
 // Instructions: 14-group-users-by-role.md
 //
@@ -23,7 +24,16 @@
 const users = [
   { name: "Alex", role: "admin" },
   { name: "John", role: "user" },
-  { name: "Sarah", role: "admin" }
+  { name: "Sarah", role: "admin" },
 ];
 
 // --- your code below ---
+const groupedByRole = users.reduce((grouped, user) => {
+  if (!grouped[user.role]) {
+    grouped[user.role] = [];
+  }
+  grouped[user.role].push(user.name);
+  return grouped;
+}, {});
+
+console.log(groupedByRole);

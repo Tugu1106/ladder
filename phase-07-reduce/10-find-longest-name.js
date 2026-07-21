@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 10 — Find Longest Name
 // Instructions: 10-find-longest-name.md
 //
@@ -19,3 +20,11 @@
 const users = [{ name: "Alex" }, { name: "Christopher" }, { name: "Bob" }];
 
 // --- your code below ---
+const longest = users.reduce((longest, user) => {
+  if (user.name.length > longest.length) {
+    longest = user.name;
+  }
+  return longest;
+}, users[0].name);
+
+console.log(longest);

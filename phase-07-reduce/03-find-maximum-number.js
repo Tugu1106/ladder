@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 3 — Find Maximum Number
 // Instructions: 03-find-maximum-number.md
 //
@@ -20,3 +21,10 @@
 const numbers = [5, 10, 3, 20, 8];
 
 // --- your code below ---
+const max = numbers.reduce((max, number) => {
+  if (number > max) {
+    max = number;
+  }
+  return max;
+}, numbers[0]);
+console.log(max);

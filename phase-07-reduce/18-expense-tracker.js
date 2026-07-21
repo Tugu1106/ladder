@@ -1,3 +1,8 @@
+// ✅ DONE — output correct.
+//    Naming note: the const is `total` and it holds an object with a `total`
+//    key — so you write total.total. It works, but 'total.total' reads oddly.
+//    Naming the const `summary` (holding { total: 35 }) would read cleaner.
+//    Or the simpler route the .md mentions: sum plainly, then wrap: { total }.
 // Exercise 18 — Expense Tracker
 // Instructions: 18-expense-tracker.md
 //
@@ -19,7 +24,15 @@
 const expenses = [
   { title: "Food", amount: 20 },
   { title: "Transport", amount: 10 },
-  { title: "Coffee", amount: 5 }
+  { title: "Coffee", amount: 5 },
 ];
 
 // --- your code below ---
+const total = expenses.reduce(
+  (total, expense) => {
+    total.total += expense.amount;
+    return total;
+  },
+  { total: 0 },
+);
+console.log(total);

@@ -1,3 +1,6 @@
+// ✅ DONE — output correct, and you took the HARD path.
+//    The acc === "" check is the sophisticated answer — it avoids the leading
+//    space ' Hello World' that the naive version produces. Well spotted.
 // Exercise 5 — Join Strings
 // Instructions: 05-join-strings.md
 //
@@ -18,4 +21,12 @@
 
 const words = ["Hello", "World"];
 
-// --- your code below ---
+const sentence = words.reduce((acc, word) => {
+  if (acc === "") {
+    return word;
+  } else {
+    return acc + " " + word;
+  }
+}, "");
+
+console.log(sentence);

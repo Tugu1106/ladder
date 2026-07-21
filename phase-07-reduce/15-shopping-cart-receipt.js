@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Shopping Cart Receipt
 // Instructions: 15-shopping-cart-receipt.md
 //
@@ -17,7 +18,17 @@
 
 const cart = [
   { name: "Keyboard", price: 50, quantity: 2 },
-  { name: "Mouse", price: 20, quantity: 1 }
+  { name: "Mouse", price: 20, quantity: 1 },
 ];
 
 // --- your code below ---
+const shoppingCart = cart.reduce(
+  (cart, item) => {
+    cart.items += item.quantity;
+    cart.total += item.quantity * item.price;
+    return cart;
+  },
+  { items: 0, total: 0 },
+);
+
+console.log(shoppingCart);

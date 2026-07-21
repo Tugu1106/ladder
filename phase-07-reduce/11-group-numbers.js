@@ -1,3 +1,7 @@
+// ✅ DONE — object accumulator, perfect.
+//    You created the { even: [], odd: [] } initial value, pushed into the
+//    right array, and returned the accumulator every pass. This is where most
+//    people forget the return and get 'cannot read property of undefined'.
 // Exercise 11 — Group Numbers
 // Instructions: 11-group-numbers.md
 //
@@ -24,3 +28,16 @@
 const numbers = [1, 2, 3, 4, 5, 6];
 
 // --- your code below ---
+const grouped = numbers.reduce(
+  (grouped, number) => {
+    if (number % 2 === 0) {
+      grouped.even.push(number);
+    } else {
+      grouped.odd.push(number);
+    }
+    return grouped;
+  },
+  { even: [], odd: [] },
+);
+
+console.log(grouped);

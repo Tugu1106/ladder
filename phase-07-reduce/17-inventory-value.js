@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 17 — Inventory Value
 // Instructions: 17-inventory-value.md
 //
@@ -15,7 +16,13 @@
 
 const products = [
   { name: "Laptop", price: 1000, stock: 5 },
-  { name: "Mouse", price: 50, stock: 10 }
+  { name: "Mouse", price: 50, stock: 10 },
 ];
 
 // --- your code below ---
+const value = products.reduce((sum, item) => {
+  sum += item.price * item.stock;
+  return sum;
+}, 0);
+
+console.log(value);

@@ -1,3 +1,8 @@
+// ✅ DONE — the full pipeline, correct.
+//    Tiny style note: your reducer is (sum, price) => (sum += price). That
+//    works — sum += price reassigns AND evaluates to the new value — but the
+//    plain (sum, price) => sum + price is cleaner and says the same thing
+//    without mutating the parameter. Same result either way.
 // Exercise 19 — Filter + Map + Reduce
 // Instructions: 19-filter-map-reduce.md
 //
@@ -26,7 +31,12 @@
 const products = [
   { name: "Laptop", price: 1000, available: true },
   { name: "Mouse", price: 50, available: false },
-  { name: "Keyboard", price: 100, available: true }
+  { name: "Keyboard", price: 100, available: true },
 ];
 
 // --- your code below ---
+const result = products
+  .filter((item) => item.available)
+  .map((item) => item.price)
+  .reduce((sum, price) => (sum += price), 0);
+console.log(result);
