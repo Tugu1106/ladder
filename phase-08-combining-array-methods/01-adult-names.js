@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 1 — Adult Names
 // Instructions: 01-adult-names.md
 //
@@ -16,7 +17,9 @@
 const users = [
   { name: "Alex", age: 25 },
   { name: "John", age: 15 },
-  { name: "Sarah", age: 30 }
+  { name: "Sarah", age: 30 },
 ];
 
 // --- your code below ---
+const result = users.filter((user) => user.age >= 18).map((user) => user.name);
+console.log(result);

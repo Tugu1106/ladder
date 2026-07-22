@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 12 — Count By Category
 // Instructions: 12-count-by-category.md
 //
@@ -15,7 +16,16 @@
 const items = [
   { category: "food" },
   { category: "food" },
-  { category: "drink" }
+  { category: "drink" },
 ];
 
 // --- your code below ---
+const countByCategory = items.reduce((counted, item) => {
+  if (!counted[item.category]) {
+    counted[item.category] = 0;
+  }
+  counted[item.category] += 1;
+  return counted;
+}, {});
+
+console.log(countByCategory);

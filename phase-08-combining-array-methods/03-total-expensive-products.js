@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 3 — Total Expensive Products
 // Instructions: 03-total-expensive-products.md
 //
@@ -13,7 +14,12 @@
 const products = [
   { name: "Mouse", price: 20 },
   { name: "Keyboard", price: 100 },
-  { name: "Monitor", price: 300 }
+  { name: "Monitor", price: 300 },
 ];
 
 // --- your code below ---
+const result = products
+  .filter((product) => product.price >= 50)
+  .map((product) => product.price)
+  .reduce((total, price) => total + price);
+console.log(result);

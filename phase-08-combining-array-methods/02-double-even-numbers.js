@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 2 — Double Even Numbers
 // Instructions: 02-double-even-numbers.md
 //
@@ -16,3 +17,7 @@
 const numbers = [1, 2, 3, 4, 5, 6];
 
 // --- your code below ---
+const result = numbers
+  .filter((number) => number % 2 === 0)
+  .map((number) => number * 2);
+console.log(result);

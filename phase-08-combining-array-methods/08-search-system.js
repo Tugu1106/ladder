@@ -1,3 +1,6 @@
+// ✅ DONE — output correct.
+//    Same robustness note as Phase 6: lowercase the keyword too —
+//    ...includes(keyword.toLowerCase()) — so "PHONE" would still match.
 // Exercise 8 — Search System
 // Instructions: 08-search-system.md
 //
@@ -16,8 +19,13 @@ const products = [
   { name: "Laptop" },
   { name: "Phone" },
   { name: "Keyboard" },
-  { name: "Mouse" }
+  { name: "Mouse" },
 ];
 const keyword = "phone";
 
 // --- your code below ---
+const search = products.filter((product) =>
+  product.name.toLowerCase().includes(keyword),
+);
+
+console.log(search);

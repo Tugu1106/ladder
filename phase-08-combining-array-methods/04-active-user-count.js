@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 4 — Active User Count
 // Instructions: 04-active-user-count.md
 //
@@ -17,7 +18,10 @@
 const users = [
   { name: "Alex", active: true },
   { name: "John", active: false },
-  { name: "Sarah", active: true }
+  { name: "Sarah", active: true },
 ];
 
 // --- your code below ---
+const activeUsers = users.filter((user) => user.active).length;
+
+console.log(activeUsers);

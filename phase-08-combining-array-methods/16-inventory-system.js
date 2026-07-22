@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 16 — Inventory System
 // Instructions: 16-inventory-system.md
 //
@@ -14,7 +15,12 @@
 
 const products = [
   { name: "Laptop", price: 1000, stock: 3 },
-  { name: "Mouse", price: 50, stock: 20 }
+  { name: "Mouse", price: 50, stock: 20 },
 ];
 
 // --- your code below ---
+const inventoryValue = products.reduce(
+  (total, product) => (total += product.price * product.stock),
+  0,
+);
+console.log(inventoryValue);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 11 — Group Products By Category
 // Instructions: 11-group-products-by-category.md
 //
@@ -14,7 +15,17 @@
 const products = [
   { name: "Laptop", category: "computer" },
   { name: "Phone", category: "mobile" },
-  { name: "Mouse", category: "computer" }
+  { name: "Mouse", category: "computer" },
 ];
 
 // --- your code below ---
+const groupedByCategory = products.reduce((grouped, item) => {
+  if (!grouped[item.category]) {
+    grouped[item.category] = [];
+  }
+
+  grouped[item.category].push(item.name);
+  return grouped;
+}, {});
+
+console.log(groupedByCategory);

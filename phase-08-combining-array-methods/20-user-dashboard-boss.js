@@ -1,3 +1,10 @@
+// ✅ DONE — both fixes in, output matches spec exactly.
+//    Fixed: key is now `totalUsers` (plural), and activeAdults filters on
+//    `user.active && user.age >= 18` — so it's correct by LOGIC now, not by
+//    luck. An active 16-year-old would correctly be excluded.
+//    (totalRevenue nested reduce was right all along: 300+50+300 = 650.)
+//    Style-only: the inner reduce reuses the name `total`, shadowing the
+//    outer one. Works fine; naming it `orderTotal` would read clearer.
 // Exercise 20 — Final Boss: User Dashboard ⭐⭐⭐
 // Instructions: 20-user-dashboard-boss.md
 //
@@ -23,9 +30,31 @@
 // flatMap() gives you one flat list of orders instead.
 
 const users = [
-  { name: "Alex", age: 25, active: true, orders: [{ price: 100 }, { price: 200 }] },
+  {
+    name: "Alex",
+    age: 25,
+    active: true,
+    orders: [{ price: 100 }, { price: 200 }],
+  },
   { name: "John", age: 17, active: false, orders: [{ price: 50 }] },
-  { name: "Sarah", age: 30, active: true, orders: [{ price: 300 }] }
+  { name: "Sarah", age: 30, active: true, orders: [{ price: 300 }] },
 ];
 
 // --- your code below ---
+const activeAdults = users
+  .filter((user) => user.active && user.age >= 18)
+  .map((user) => user.name);
+
+const totalRevenue = users.reduce(
+  (total, user) =>
+    (total += user.orders.reduce((total, order) => (total += order.price), 0)),
+  0,
+);
+
+const dashboard = {
+  totalUsers: users.length,
+  activeAdults: activeAdults,
+  totalRevenue: totalRevenue,
+};
+
+console.log(dashboard);

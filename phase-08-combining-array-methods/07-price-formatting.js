@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 7 — Price Formatting
 // Instructions: 07-price-formatting.md
 //
@@ -16,3 +17,8 @@
 const prices = [100, 200, 300];
 
 // --- your code below ---
+const result = prices.map((price) => {
+  return `$${price}`;
+});
+
+console.log(result);

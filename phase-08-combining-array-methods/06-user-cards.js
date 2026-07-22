@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 6 — User Cards
 // Instructions: 06-user-cards.md
 //
@@ -14,7 +15,15 @@
 
 const users = [
   { name: "Alex", age: 20 },
-  { name: "John", age: 30 }
+  { name: "John", age: 30 },
 ];
 
 // --- your code below ---
+const userCards = users.map((user) => {
+  return {
+    title: user.name,
+    text: `Age:${user.age}`,
+  };
+});
+
+console.log(userCards);

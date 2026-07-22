@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 13 — Group Users By Age
 // Instructions: 13-group-users-by-age.md
 //
@@ -16,7 +17,16 @@
 const users = [
   { name: "Alex", age: 20 },
   { name: "John", age: 20 },
-  { name: "Sarah", age: 30 }
+  { name: "Sarah", age: 30 },
 ];
 
 // --- your code below ---
+const groupUserByAge = users.reduce((grouped, user) => {
+  if (!grouped[user.age]) {
+    grouped[user.age] = [];
+  }
+  grouped[user.age].push(user.name);
+  return grouped;
+}, {});
+
+console.log(groupUserByAge);

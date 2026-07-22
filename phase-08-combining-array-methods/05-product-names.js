@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 5 — Product Names
 // Instructions: 05-product-names.md
 //
@@ -10,7 +11,12 @@
 const products = [
   { name: "Laptop", stock: 5 },
   { name: "Mouse", stock: 0 },
-  { name: "Keyboard", stock: 3 }
+  { name: "Keyboard", stock: 3 },
 ];
 
 // --- your code below ---
+const productWithNames = products
+  .filter((product) => product.stock > 0)
+  .map((product) => product.name);
+
+console.log(productWithNames);

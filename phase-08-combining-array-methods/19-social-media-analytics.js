@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 19 — Social Media Analytics ⭐
 // Instructions: 19-social-media-analytics.md
 //
@@ -19,7 +20,16 @@
 const posts = [
   { author: "Alex", likes: 100 },
   { author: "John", likes: 50 },
-  { author: "Sarah", likes: 200 }
+  { author: "Sarah", likes: 200 },
 ];
 
 // --- your code below ---
+const totalLikes = posts.reduce((total, post) => (total += post.likes), 0);
+
+const top = posts.reduce((best, post) =>
+  post.likes > best.likes ? post : best,
+);
+
+const report = { totalLikes, topPost: top.author };
+
+console.log(report);

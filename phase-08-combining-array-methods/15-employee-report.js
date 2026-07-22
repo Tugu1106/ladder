@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 15 — Employee Report
 // Instructions: 15-employee-report.md
 //
@@ -13,7 +14,11 @@
 const employees = [
   { name: "Alex", department: "IT", salary: 4000 },
   { name: "John", department: "HR", salary: 3000 },
-  { name: "Sarah", department: "IT", salary: 5000 }
+  { name: "Sarah", department: "IT", salary: 5000 },
 ];
 
 // --- your code below ---
+const report = employees
+  .filter((employee) => employee.department === "IT")
+  .reduce((total, employee) => (total += employee.salary), 0);
+console.log(report);

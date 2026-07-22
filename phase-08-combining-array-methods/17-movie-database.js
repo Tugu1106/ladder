@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 17 — Movie Database
 // Instructions: 17-movie-database.md
 //
@@ -15,7 +16,11 @@
 const movies = [
   { title: "A", rating: 8 },
   { title: "B", rating: 5 },
-  { title: "C", rating: 9 }
+  { title: "C", rating: 9 },
 ];
 
 // --- your code below ---
+const result = movies
+  .filter((movie) => movie.rating >= 8)
+  .map((movie) => movie.title);
+console.log(result);

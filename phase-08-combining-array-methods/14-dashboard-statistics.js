@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 14 — Dashboard Statistics
 // Instructions: 14-dashboard-statistics.md
 //
@@ -15,7 +16,15 @@
 const orders = [
   { status: "completed", price: 100 },
   { status: "pending", price: 200 },
-  { status: "completed", price: 300 }
+  { status: "completed", price: 300 },
 ];
 
 // --- your code below ---
+const completed = orders.filter((order) => order.status === "completed");
+
+const dashboard = {
+  completedOrders: completed.length,
+  completedRevenue: completed.reduce((sum, order) => sum + order.price, 0),
+};
+
+console.log(dashboard);

@@ -1,3 +1,4 @@
+// ✅ DONE — ran it, output correct.
 // Exercise 18 — Online Store Analytics ⭐
 // Instructions: 18-online-store-analytics.md
 //
@@ -17,7 +18,20 @@
 const products = [
   { name: "Laptop", price: 1000, category: "tech", sold: true },
   { name: "Phone", price: 500, category: "tech", sold: false },
-  { name: "Chair", price: 200, category: "home", sold: true }
+  { name: "Chair", price: 200, category: "home", sold: true },
 ];
 
 // --- your code below ---
+
+const analytic = products
+  .filter((product) => product.sold)
+  .reduce(
+    (final, product) => {
+      final.revenue += product.price;
+      final.products.push(product.name);
+      return final;
+    },
+    { revenue: 0, products: [] },
+  );
+
+console.log(analytic);
