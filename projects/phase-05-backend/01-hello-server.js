@@ -18,12 +18,18 @@ const PORT = 3000;
 //   app.get("/", (req, res) => { ... })
 //   inside, send a response with:  res.send("Hello from my first server!")
 
+app.get("/hello", (req, res) => {
+  res.send("Hello fcking dogs can you see me? you will see me eventually");
+});
 
 // TODO 2: start the server listening on PORT.
 //   app.listen(PORT, () => { ... })
 //   inside the callback, console.log a message like:
 //   `Server running at http://localhost:${PORT}`
 
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});
 
 // WHAT TO NOTICE:
 // - The program does NOT exit — it stays alive, waiting. That's a server.

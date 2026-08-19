@@ -15,6 +15,7 @@ import express from "express";
 
 const app = express();
 const PORT = 3000;
+app.use(express.json());
 
 const users = [
   { id: 1, name: "Tugu" },
@@ -24,6 +25,9 @@ const users = [
 
 // TODO 1: GET "/users"  → res.json(users)
 
+app.get("/users", (req, res) => {
+  res.json(users);
+});
 
 // TODO 2: GET "/users/:id"  → find and return the one user
 //   const id = req.params.id;          // this is a STRING, e.g. "2"
@@ -32,10 +36,19 @@ const users = [
 //   if found  → res.json(user)
 //   if not    → res.status(404).json({ error: "User not found" })
 
+app.get("/users/:id", (req, res) => {
+  const id = req.params.id;
+  const user = users.find((u) => u.id === Number(id));
+  if (!user) {
+    return res.status(404).json({ error: "User not found" });
+  }
+  res.json(user);
+});
 
 // TODO 3: app.listen(...)
-
-
+app.listen(PORT, () => {
+  console.log("Server is listening");
+});
 // WHAT TO NOTICE:
 // - ":id" is a placeholder — whatever's in that slot becomes req.params.id.
 // - req.params values are ALWAYS strings. Compare carefully (Number(id) === user.id).

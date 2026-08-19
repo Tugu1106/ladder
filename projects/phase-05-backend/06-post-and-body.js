@@ -19,11 +19,11 @@ import express from "express";
 
 const app = express();
 const PORT = 3000;
+app.use(express.json());
 
 // ⚠️ THE #1 BEGINNER BUG: without this line, req.body is undefined on every POST.
 // TODO 0: enable JSON body parsing — add this line right here:
 //   app.use(express.json());
-
 
 // A mutable array acts as our "database" (resets when the server restarts):
 let users = [
@@ -33,17 +33,24 @@ let users = [
 
 // TODO 1: GET "/users"  → res.json(users)
 
+app.get("/users", (req, res) => {
+  res.json(users);
+});
 
 // TODO 2: POST "/users"
 //   const newUser = req.body;               // e.g. { name: "Grace" }
 //   give it an id (simple way: Date.now(), or users.length + 1)
 //   push it into users
 //   res.status(201).json(newUser)           // 201 = Created
-
-
+app.post("/users", (req, res) => {
+  const newUser = { id: Date.now(), ...req.body };
+  users.push(newUser);
+  res.status(201).json(newUser);
+});
 // TODO 3: app.listen(...)
-
-
+app.listen(PORT, () => {
+  console.log("server is running");
+});
 // WHAT TO NOTICE:
 // - POST sends data in the BODY (not the URL). You read it with req.body.
 // - express.json() is what turns that incoming JSON into a real object. No line,

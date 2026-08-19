@@ -19,7 +19,7 @@ import express from "express";
 const app = express();
 const PORT = 3000;
 
-app.use(express.json());   // remember why this is here!
+app.use(express.json()); // remember why this is here!
 
 let items = [
   { id: 1, name: "Notebook" },
@@ -27,24 +27,56 @@ let items = [
 ];
 
 // TODO 1: GET "/items"        → res.json(items)
+app.get("/items", (req, res) => {
+  res.json(items);
+});
 
 // TODO 2: GET "/items/:id"    → find by Number(req.params.id)
 //         found → res.json(item) ; missing → res.status(404).json({error:"..."})
-
+app.get("/items/:id", (req, res) => {
+  const id = req.params.id;
+  const user = items.find((u) => u.id === Number(id));
+  if (!user) {
+    res.status(404).json({ error: "..." });
+  } else {
+    res.json(user);
+  }
+});
 // TODO 3: POST "/items"       → make { id: <new>, name: req.body.name },
 //         push it, res.status(201).json(newItem)
-
+app.post("/items", (req, res) => {
+  const newItem = { id: Date.now(), name: req.body.name };
+  items.push(newItem);
+  res.status(201).json(newItem);
+});
 // TODO 4: PUT "/items/:id"    → find the item; if missing → 404.
 //         if found, update its fields from req.body (e.g. item.name = req.body.name),
 //         then res.json(item)
+app.put("/items/:id", (req, res) => {
+  const id = req.params.id;
+  const item = items.find((i) => i.id === Number(id));
+  if (!item) {
+    return res.status(404).send("This item doesnt exist");
+  }
+  item.name = req.body.name; // update
+  res.json(item); // respond
+});
 
 // TODO 5: DELETE "/items/:id" → filter it out of the array (items = items.filter(...)),
 //         then res.json({ deleted: true })  (or 404 if it wasn't there)
-
-
+app.delete("/items/:id", (req, res) => {
+  const id = req.params.id;
+  const item = items.find((i) => i.id === Number(id));
+  if (!item) {
+    return res.status(404).json({ error: "Item not found" });
+  }
+  items = items.filter((i) => i.id !== Number(id));
+  res.json({ deleted: true });
+});
 // TODO 6: app.listen(...)
-
-
+app.listen(PORT, () => {
+  console.log("server is running");
+});
 // WHAT TO NOTICE:
 // - This is a complete REST API. Every CRUD app (todo lists, blogs, shops) is this
 //   pattern, just with more fields and real data.

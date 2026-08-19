@@ -31,17 +31,35 @@ let users = [{ id: 1, name: "Tugu" }];
 //   otherwise: create { id: Date.now(), name }, push, res.status(201).json(newUser)
 //   ⚠️ after each early return, remember to `return` so code below doesn't also run
 //      (sending two responses = crash). e.g.  return res.status(400).json(...)
-
+app.post("/signup", (req, res) => {
+  const name = req.body.name;
+  if (!name) {
+    return res.status(400).json({ error: "name is required" });
+  }
+  if (name.length < 3) {
+    return res.status(400).json({ error: "name too short" });
+  }
+  const newUser = { id: Date.now(), name };
+  users.push(newUser);
+  res.status(201).json(newUser);
+});
 
 // TODO 2: GET "/whoami/:id"
 //   find by Number(req.params.id)
 //   missing → res.status(404).json({ error: "not found" })
 //   found   → res.json(user)   (200 is automatic)
-
-
+app.get("/whoami/:id", (req, res) => {
+  const id = req.params.id;
+  const user = users.find((u) => u.id === Number(id));
+  if (!user) {
+    return res.status(404).json({ error: "not found" });
+  }
+  res.json(user);
+});
 // TODO 3: app.listen(...)
-
-
+app.listen(PORT, () => {
+  console.log("server is running");
+});
 // WHAT TO NOTICE:
 // - Status codes are how the frontend knows what happened. Remember Phase 4:
 //   `if (!res.ok) throw...` — you were READING these codes. Now you SET them.

@@ -14,6 +14,7 @@ import express from "express";
 
 const app = express();
 const PORT = 3000;
+app.use(express.json());
 
 // Some fake data to serve (pretend this is your "database" for now):
 const users = [
@@ -28,13 +29,23 @@ const posts = [
 ];
 
 // TODO 1: GET "/"        → res.send a welcome message
+
+app.get("/", (req, res) => {
+  res.send("welcome");
+});
 // TODO 2: GET "/users"   → res.json(users)
+
+app.get("/users", (req, res) => {
+  res.json(users);
+});
 // TODO 3: GET "/posts"   → res.json(posts)
-
-
+app.get("/posts", (req, res) => {
+  res.json(posts);
+});
 // TODO 4: app.listen(...) with a console.log.
-
-
+app.listen(PORT, () => {
+  console.log("Your server is running");
+});
 // WHAT TO NOTICE:
 // - Each route is independent — its own path, its own handler, its own answer.
 // - You now have a mini API. Visit /users and /posts — real JSON endpoints you

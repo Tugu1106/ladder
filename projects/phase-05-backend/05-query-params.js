@@ -14,6 +14,7 @@ import express from "express";
 
 const app = express();
 const PORT = 3000;
+app.use(express.json());
 
 const users = [
   { id: 1, name: "Tugu" },
@@ -29,10 +30,23 @@ const users = [
 //          name.toLowerCase().includes(q.toLowerCase()) )  → res.json(result)
 //   (this is just Phase-2 .filter() — the new part is reading req.query)
 
+app.get("/search", (req, res) => {
+  const q = req.query.q;
+  if (!req.query.q) {
+    res.json(users);
+  } else {
+    res.json(
+      users.filter((u) => {
+        return u.name.toLowerCase().includes(q.toLowerCase());
+      }),
+    );
+  }
+});
 
 // TODO 2: app.listen(...)
-
-
+app.listen(PORT, () => {
+  console.log("Server is running");
+});
 // WHAT TO NOTICE:
 // - Route param (:id) = WHICH item. Query param (?q=) = HOW to filter/search.
 // - req.query.q is a string (or undefined if not provided — handle that).
