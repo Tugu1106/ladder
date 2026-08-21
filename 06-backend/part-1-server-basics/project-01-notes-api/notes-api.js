@@ -59,7 +59,7 @@ app.delete("/notes/:id", (req, res) => {
     return res.status(404).json({ error: "Note doesnt exist" });
   }
   notes = notes.filter((n) => n.id !== Number(id));
-  res.status(200).json({ deleted: true });
+  res.status(200).json({ deleted: true, note });
 });
 
 app.listen(PORT, () => {

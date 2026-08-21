@@ -3,12 +3,28 @@
 **The other side of the counter.** For months you've *called* APIs. Now you *build*
 them. You become the server that receives a request and decides what to send back.
 
-## Read these FIRST (10 minutes)
+## Folder layout — organized by PART (do them in order)
 
-1. **[what-is-a-server.md](./what-is-a-server.md)** — what a server even *is*, from
-   the inside (the kitchen, not the customer). The concept in plain words.
-2. **[express-cheatsheet.md](./express-cheatsheet.md)** — the syntax: routes, `req`,
-   `res`, params, body, status codes. Your reference for the whole phase.
+Each part is a self-contained folder — open one and focus only on it.
+
+```
+06-backend/
+├─ part-1-server-basics/          ← Express fundamentals + your first API
+│   ├─ what-is-a-server.md            (concept: what a server is)
+│   ├─ express-cheatsheet.md          (syntax reference)
+│   ├─ drills/                        (8 guided drills, 01–08)
+│   └─ project-01-notes-api/          (the single-file Notes API you built)
+└─ part-2-routes-and-controllers/ ← structuring a real backend
+    ├─ backend-structure-cheatsheet.md
+    └─ notes-api-structured/          (same API split into routes/ + controllers/)
+```
+
+## Start with Part 1 → read these FIRST (10 minutes)
+
+1. **[part-1-server-basics/what-is-a-server.md](./part-1-server-basics/what-is-a-server.md)**
+   — what a server even *is*, from the inside (the kitchen, not the customer).
+2. **[part-1-server-basics/express-cheatsheet.md](./part-1-server-basics/express-cheatsheet.md)**
+   — the syntax: routes, `req`, `res`, params, body, status codes.
 
 Read both, then do the drills. They'll make total sense.
 
@@ -45,12 +61,14 @@ Say **"review"** after a batch (or when one won't work) and I'll check it + expl
 
 **Notes API** — a real REST API you build by hand: create a note, list all notes,
 read one, edit one, delete one. Everything from the drills, assembled into one clean
-server. (I'll set up the brief when you're ready.)
+server. See **[part-1-server-basics/project-01-notes-api/](./part-1-server-basics/project-01-notes-api/)**
+(single-file version), then **[part-2-routes-and-controllers/](./part-2-routes-and-controllers/)**
+for the routes/controllers refactor.
 
 ## How to run
 
 ```
-node 01-hello-server.js
+node part-1-server-basics/drills/01-hello-server.js
 ```
 The server stays alive (that's the point) — stop it with **Ctrl+C**. Change code →
 stop → re-run to see it. (We'll add auto-restart with `node --watch` once you're
