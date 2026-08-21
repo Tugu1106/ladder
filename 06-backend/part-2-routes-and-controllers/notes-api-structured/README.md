@@ -4,8 +4,11 @@ You built the Notes API in **one file** and it works. Now you'll **refactor** it
 the clean multi-file structure real apps use — the split you *intuited* yourself a
 while back (routes vs controllers vs server).
 
-**Read first:** [../backend-structure-cheatsheet.md](../backend-structure-cheatsheet.md)
-— the concept (Router, controllers, relative paths, the flow).
+**Read in this order first:**
+1. [../what-is-structuring-a-backend.md](../what-is-structuring-a-backend.md) — the big
+   picture: what it is, why it matters, how it connects to what you already know.
+2. [../backend-structure-cheatsheet.md](../backend-structure-cheatsheet.md) — the syntax
+   (Router, controllers, relative paths, the flow).
 
 ## The target structure (already scaffolded for you)
 
